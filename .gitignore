@@ -2,4 +2,4 @@ TestBase/Temp/
 TestBase/Library/
 TestBase/Library/metadata/
 *.meta
-*.so
+*.suo
