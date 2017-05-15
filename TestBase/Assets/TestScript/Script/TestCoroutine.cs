@@ -19,6 +19,10 @@ public class TestCoroutine : MonoBehaviour {
         // work after 
         yield return new WaitForSeconds(5);
         Debug.Log("WaitAndPrint 2:" + Time.time);
+
+
+        Debug.Log("----");
+
     }
 
 
