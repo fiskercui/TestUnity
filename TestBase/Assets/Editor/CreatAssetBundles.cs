@@ -7,6 +7,6 @@ public class CreateAssetBundles
     [MenuItem("Custom/Build AssetBundles")]
     static void BuildAllAssetBundles()
     {
-        BuildPipeline.BuildAssetBundles("Assets/StreamingAssets/assetbundles");
+        //BuildPipeline.BuildAssetBundles("Assets/StreamingAssets/assetbundles");
     }
 }

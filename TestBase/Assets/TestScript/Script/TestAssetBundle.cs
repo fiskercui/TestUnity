@@ -5,7 +5,10 @@ public class TestAssetBundle : MonoBehaviour {
     //不同平台下StreamingAssets的路径是不同的，这里需要注意一下。
     public static readonly string PathURL =
 #if UNITY_ANDROID
-		    "jar:file://" + Application.dataPath + "!/assets/";
+            // comment by weihua.cui 20170515
+            // get data path 
+            //"jar:file://" + Application.dataPath + "!/assets/";
+            "";
 #elif UNITY_IPHONE
 		    Application.dataPath + "/Raw/";
 #elif UNITY_STANDALONE_WIN || UNITY_EDITOR
