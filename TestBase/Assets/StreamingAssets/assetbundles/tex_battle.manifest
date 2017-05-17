@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 2494323665
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0c6f44960b1d3b4daf833e92618cc463
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dafb67cca6a2c3bf62fa900616455a9b
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/TestScript/Texture/battle/pet_f_5.png
+- Assets/TestScript/Texture/battle/ATB_0010.png
+- Assets/TestScript/Texture/battle/ATB_003.png
+- Assets/TestScript/Texture/battle/hp_bg.png
+- Assets/TestScript/Texture/battle/pet_b_1.png
+- Assets/TestScript/Texture/battle/pet_f_2.png
+- Assets/TestScript/Texture/battle/pet_b_2.png
+- Assets/TestScript/Texture/battle/ATB_005.png
+- Assets/TestScript/Texture/battle/ATB_006.png
+- Assets/TestScript/Texture/battle/top_bg.png
+- Assets/TestScript/Texture/battle/pet_b_6.png
+- Assets/TestScript/Texture/battle/skill_bottom_frame_common.png
+- Assets/TestScript/Texture/battle/mate_frame.png
+- Assets/TestScript/Texture/battle/pet_f_3.png
+- Assets/ABs/button
+- Assets/TestScript/Texture/battle/queue_bg.png
+- Assets/TestScript/Texture/battle/font1.png
+- Assets/TestScript/Texture/battle/xxxxx.jpg
+- Assets/TestScript/Texture/battle/enemy_frame.png
+- Assets/TestScript/Texture/battle/pet_b_5.png
+- Assets/TestScript/Texture/battle/bg.jpg
+- Assets/TestScript/Texture/battle/button_speed.png
+- Assets/TestScript/Texture/battle/pet_f_6.png
+- Assets/TestScript/Texture/battle/ATB_008.png
+- Assets/TestScript/Texture/battle/pause.png
+- Assets/TestScript/Texture/battle/pet_f_4.png
+- Assets/TestScript/Texture/battle/ATB_004.png
+- Assets/TestScript/Texture/battle/ATB_007.png
+- Assets/TestScript/Texture/battle/hp_front.png
+- Assets/TestScript/Texture/battle/ATB_0011.png
+- Assets/TestScript/Texture/battle/skill_bg.png
+- Assets/TestScript/Texture/battle/ATB_0012.png
+- Assets/TestScript/Texture/battle/skill_bottom_frame_flash.png
+- Assets/TestScript/Texture/battle/ATB_009.png
+- Assets/TestScript/Texture/battle/pet_f_1.png
+- Assets/TestScript/Texture/battle/skill_attr_common.png
+- Assets/TestScript/Texture/battle/ATB_002.png
+- Assets/TestScript/Texture/battle/pet_b_3.png
+- Assets/TestScript/Texture/battle/Materials/ATB_001.mat
+- Assets/TestScript/Texture/battle/skill_attr_flash.png
+- Assets/TestScript/Texture/battle/pet_b_4.png
+- Assets/TestScript/Texture/battle/ATB_001.png
+- Assets/TestScript/Texture/battle/button_pass.png
+Dependencies: []

@@ -1,6 +1,20 @@
 ManifestFileVersion: 0
+CRC: 866572837
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: mainui
+      Dependencies: {}
+    Info_1:
+      Name: tex_button
+      Dependencies: {}
+    Info_2:
+      Name: tex_battle
+      Dependencies: {}
+    Info_3:
+      Name: pre_battleobj
+      Dependencies:
+        Dependency_0: tex_battle
+    Info_4:
+      Name: pre_battle_sphere
       Dependencies: {}

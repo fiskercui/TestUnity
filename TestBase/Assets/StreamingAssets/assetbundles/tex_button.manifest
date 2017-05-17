@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 1273763099
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 034e8753654d4585ffdf2b9f214f901f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4774d6da9b606debf00b5a5d61c4487c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/TestScript/Texture/button/dikuang_zhujue.png
+- Assets/TestScript/Texture/button/dikuang_shangcheng.png
+- Assets/TestScript/Texture/button/dikuang_renwu.png
+- Assets/TestScript/Texture/button/dikuang_jingling.png
+- Assets/TestScript/Texture/button/dikuang_xuanzhong.png
+- Assets/TestScript/Texture/button/dikuang_beibao.png
+- Assets/TestScript/Texture/button/dikuang_weixuanzhong.png
+- Assets/TestScript/Texture/button/dikuang_zhuangbei.png
+Dependencies: []
