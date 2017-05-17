@@ -134,6 +134,7 @@
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\TestScript\Fonts\Damage.fnt" />
     <None Include="Assets\TestSpine\Examples\Spine\Dragon\dragon.atlas.txt" />
     <None Include="Assets\TestSpine\Examples\Spine\Dragon\license.txt" />
     <None Include="Assets\TestSpine\Examples\Spine\Eyes\eyes.atlas.txt" />

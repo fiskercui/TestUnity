@@ -1,37 +1,47 @@
-﻿/*
-/Applications/Unity/Unity.app/Contents/MacOS/Unity \
-  -batchmode \
-  -quit \
-  -projectPath $PROJECT_PATH \
-  -executeMethod CommandBuild.BuildAndroid
-*/
-
-// Assets/Editor/CommandBuile.cs
+﻿
 using UnityEngine;
+using System.Collections;
 using UnityEditor;
 using System;
 
-public class AutoSave : EditorWindow
+/// <summary>
+/// 自定义的编辑器窗口
+/// </summary>
+public class AutoSaveWindow : EditorWindow
 {
 
-    private bool autoSaveScene = true;
+    private bool autoSaveScene = false;
     private bool showMessage = true;
     private bool isStarted = false;
     private int intervalScene;
     private DateTime lastSaveTimeScene = DateTime.Now;
 
-    private string projectPath = Application.dataPath;
+    private string projectPath = "";
     private string scenePath;
 
-    [MenuItem("Window/AutoSave")]
-    static void Init()
+
+    ////[MenuItem("Window/AutoSave")]
+    //[MenuItem("Window/TestEditWindow")]
+    //public static void ShowWindow()
+    //{
+    //    // 显示某个编辑器窗口。传参即是要显示的窗口类型（类名）
+    //    EditorWindow.GetWindow(typeof(TestEditWindow));
+    //}
+    [MenuItem("Window/AutoSaveWindow")]
+    static void AddWindow()
     {
-        AutoSave saveWindow = (AutoSave)EditorWindow.GetWindow(typeof(AutoSave));
-        saveWindow.Show();
+        //创建窗口
+        Rect wr = new Rect(0, 0, 500, 500);
+        AutoSaveWindow window = (AutoSaveWindow)EditorWindow.GetWindowWithRect(typeof(AutoSaveWindow), wr, true, "autoSaveWindow");
+        window.Show();
+
     }
+
 
     void OnGUI()
     {
+        projectPath = Application.dataPath;
+
         GUILayout.Label("Info:", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Saving to:", "" + projectPath);
         EditorGUILayout.LabelField("Saving scene:", "" + scenePath);
@@ -47,6 +57,7 @@ public class AutoSave : EditorWindow
         EditorGUILayout.EndToggleGroup();
     }
 
+
     void Update()
     {
         scenePath = EditorApplication.currentScene;
@@ -57,7 +68,8 @@ public class AutoSave : EditorWindow
                 saveScene();
             }
         }
-        else {
+        else
+        {
             isStarted = false;
         }
 
