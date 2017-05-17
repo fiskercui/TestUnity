@@ -84,7 +84,7 @@ public class AutoSaveWindow : EditorWindow
         {
             Debug.Log("AutoSave saved: " + scenePath + " on " + lastSaveTimeScene);
         }
-        AutoSave repaintSaveWindow = (AutoSave)EditorWindow.GetWindow(typeof(AutoSave));
+        AutoSaveWindow repaintSaveWindow = (AutoSaveWindow)EditorWindow.GetWindow(typeof(AutoSaveWindow));
         repaintSaveWindow.Repaint();
     }
 }
