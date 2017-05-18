@@ -120,6 +120,7 @@
     <Compile Include="Assets\TestScript\Script\base\ResourcesWrapper.cs" />
     <Compile Include="Assets\TestScript\Script\base\SysModule.cs" />
     <Compile Include="Assets\TestScript\Script\base\SysModuleManager.cs" />
+    <Compile Include="Assets\TestScript\TestBase\TestBase.cs" />
     <Compile Include="Assets\TestSpine\Examples\Scripts\BasicPlatformerController.cs" />
     <Compile Include="Assets\TestSpine\Examples\Scripts\Chimera.cs" />
     <Compile Include="Assets\TestSpine\Examples\Scripts\ConstrainedCamera.cs" />
