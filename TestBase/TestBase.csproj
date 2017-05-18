@@ -105,6 +105,7 @@
     <Compile Include="Assets\TestScript\Script\BmFont\UIAtlas.cs" />
     <Compile Include="Assets\TestScript\Script\BmFont\UISpriteData.cs" />
     <Compile Include="Assets\TestScript\Script\CombineMeshes.cs" />
+    <Compile Include="Assets\TestScript\Script\Navmesh\NavmeshController.cs" />
     <Compile Include="Assets\TestScript\Script\Test.cs" />
     <Compile Include="Assets\TestScript\Script\TestAsset.cs" />
     <Compile Include="Assets\TestScript\Script\TestAssetBundle.cs" />
