@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message ZhaocaimaoStartAnswer
+{
+ required uint32 result = 1;
+ required uint32 get = 2;
+}

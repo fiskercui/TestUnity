@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message ShopPlayInfoAnswer
+{
+ required uint32 result = 1;
+ required uint32 type = 2;
+ repeated uint32 id = 3;
+ repeated uint32 buy_times = 4;
+ required uint32 arena_rank = 5;
+ required uint32 ladder_history_star = 6;
+}

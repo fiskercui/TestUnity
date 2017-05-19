@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message U64Type
+{
+ required uint32 high = 1;
+ required uint32 low = 2;
+}

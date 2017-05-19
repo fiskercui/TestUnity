@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+import "ZhuZhenItem.proto";
+message ZhuZhenLst
+{
+ repeated ZhuZhenItem allZhuZhen = 1;
+}

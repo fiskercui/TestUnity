@@ -1,0 +1,28 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+import "CSPointsRaceFightData.proto";
+import "FightData.proto";
+message FightAnswer
+{
+ required uint32 result = 1;
+ required uint32 silver = 10;
+ required uint32 raidid = 11;
+ required uint32 raw_rank = 12;
+ required uint32 cur_rank = 13;
+ required U64Type totalHurt = 14;
+ required uint32 credit = 15;
+ required uint32 exploit = 16;
+ optional uint32 isQuick = 17;
+ repeated uint32 rewardCategory = 18;
+ optional uint32 new_rebel = 19;
+ required uint32 res = 2;
+ optional uint32 contribution = 20;
+ optional CSPointsRaceFightData cspointsrace_data = 21;
+ repeated FightData fightdatas = 3;
+ repeated uint32 rewardId = 4;
+ repeated uint32 rewardNum = 5;
+ repeated uint32 rewardType = 6;
+ required uint32 star = 7;
+ required uint32 starcond = 8;
+ required uint32 exp = 9;
+}

@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message GallantEntryInfoNotify
+{
+ required uint32 all = 1;
+ repeated uint32 id = 2;
+}

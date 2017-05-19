@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message CrusadeFortressBuyBuffRequest
+{
+ required uint32 id = 1;
+ required uint32 times = 2;
+}

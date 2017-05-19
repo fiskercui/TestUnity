@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message RebelBossListAnswer
+{
+ required uint32 result = 1;
+ required uint32 id = 2;
+ required uint32 state = 3;
+ required uint32 maxhp = 4;
+ required uint32 curhp = 5;
+}

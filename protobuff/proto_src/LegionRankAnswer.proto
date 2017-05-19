@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message LegionRankAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 raid = 10;
+ required uint32 self_rank = 2;
+ repeated U64Type legion_id = 3;
+ repeated string name = 4;
+ repeated uint32 logo_id = 5;
+ repeated uint32 frame_id = 6;
+ repeated uint32 level = 7;
+ repeated uint32 member_num = 8;
+ repeated string head_name = 9;
+}

@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message FriendArray
+{
+ repeated uint64 playerlist = 1;
+ repeated uint32 times = 2;
+}

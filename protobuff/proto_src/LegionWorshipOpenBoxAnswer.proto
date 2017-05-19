@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message LegionWorshipOpenBoxAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 item_type = 2;
+ repeated uint32 item_id = 3;
+ repeated uint32 item_count = 4;
+}

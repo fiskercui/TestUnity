@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message VipWeekPackageInfoAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 ids = 2;
+ repeated uint32 buy_nums = 3;
+ repeated uint32 max_nums = 4;
+}

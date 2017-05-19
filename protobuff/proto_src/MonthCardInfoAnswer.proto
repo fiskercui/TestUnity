@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message MonthCardInfoAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 id = 2;
+ repeated uint32 deadline = 3;
+ repeated uint32 last_get = 4;
+ repeated uint32 recharge_id = 5;
+}

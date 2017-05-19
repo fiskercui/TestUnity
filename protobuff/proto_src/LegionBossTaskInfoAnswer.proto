@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message LegionBossTaskInfoAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 id = 2;
+ repeated uint32 reward = 3;
+ required U64Type total_damage = 4;
+}

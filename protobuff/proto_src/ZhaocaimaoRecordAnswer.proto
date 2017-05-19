@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message ZhaocaimaoRecordAnswer
+{
+ required uint32 result = 1;
+ repeated string name = 2;
+ repeated uint32 get = 3;
+ repeated uint32 id = 4;
+}

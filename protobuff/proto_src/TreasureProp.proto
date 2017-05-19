@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message TreasureProp
+{
+ required uint32 id = 1;
+ required uint32 pos = 2;
+ required uint32 strengthenLevel = 3;
+ required uint32 strengthenExp = 4;
+ required uint32 refiningLevel = 5;
+}

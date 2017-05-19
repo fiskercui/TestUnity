@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message LimitedTimeBuyNotify
+{
+ repeated uint32 id = 1;
+ repeated uint32 end_cd = 2;
+}

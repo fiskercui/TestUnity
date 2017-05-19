@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message NianBuyFireworksRequest
+{
+ required uint32 id = 1;
+ required uint32 num = 2;
+}

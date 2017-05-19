@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message MainRaidSweepRequest
+{
+ required uint32 raid_id = 1;
+ required uint32 count = 2;
+ required uint32 type = 3;
+}

@@ -1,0 +1,19 @@
+option optimize_for = LITE_RUNTIME;
+
+message CsGrouponInfoAnswer
+{
+ required uint32 result = 1;
+ required uint32 state = 10;
+ required uint32 total_count = 11;
+ required uint32 left_count = 12;
+ required uint32 self_count = 13;
+ optional string winner_name = 16;
+ repeated uint32 rank = 17;
+ repeated string name = 18;
+ repeated uint32 count = 19;
+ required uint32 limit_ts = 2;
+ required uint32 award_ts = 3;
+ required uint32 end_ts = 4;
+ required uint32 id = 5;
+ required uint32 recharge_id = 6;
+}

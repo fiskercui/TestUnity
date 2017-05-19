@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message SweepRewardData
+{
+ repeated uint32 id = 1;
+ repeated uint32 num = 2;
+ repeated uint32 type = 3;
+ required uint32 exp = 4;
+ required uint32 exp_add = 5;
+}

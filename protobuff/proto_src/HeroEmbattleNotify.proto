@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message HeroEmbattleNotify
+{
+ required uint32 result = 1;
+ repeated U64Type guid = 2;
+}

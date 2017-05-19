@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+import "LegionEvent.proto";
+message LegionEventAnswer
+{
+ required uint32 result = 1;
+ repeated LegionEvent event = 2;
+}

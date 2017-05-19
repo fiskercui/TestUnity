@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message KingFightRankDamageAnswer
+{
+ required uint32 result = 1;
+ required uint32 selfrank = 2;
+ required U64Type selfstar = 3;
+ repeated uint32 ranklist = 4;
+ repeated string namelist = 5;
+ repeated U64Type starlist = 6;
+}

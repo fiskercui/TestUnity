@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message RebelShareAnswer
+{
+ required uint32 result = 1;
+ required U64Type serial_id = 2;
+ required uint32 share_state = 3;
+ repeated U64Type friends = 4;
+}

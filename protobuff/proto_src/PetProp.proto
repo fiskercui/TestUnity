@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message PetProp
+{
+ required uint32 pos = 1;
+ required uint32 id = 2;
+ required uint32 level = 3;
+ required uint32 exp = 4;
+ required uint32 refining_level = 6;
+ required uint32 refining_exp = 7;
+}

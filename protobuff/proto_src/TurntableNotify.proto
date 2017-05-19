@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+
+message TurntableNotify
+{
+ required uint32 end_cd = 1;
+ required uint32 today_refresh_count = 2;
+ repeated uint32 group_ids = 3;
+ repeated uint32 draw_flags = 4;
+ repeated uint32 recommends = 5;
+ repeated uint32 item_types = 6;
+ repeated uint32 item_ids = 7;
+ repeated uint32 item_nums = 8;
+}

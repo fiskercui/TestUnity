@@ -1,0 +1,21 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message CardAttrData
+{
+ required uint32 cardId = 1;
+ required uint32 totalPhyDefense = 10;
+ required uint32 totalMagicDefense = 11;
+ required int32 addAttack = 12;
+ required int32 addHp = 13;
+ required int32 addPhyDefense = 14;
+ required int32 addMagicDefense = 15;
+ repeated uint32 awakenEquip = 16;
+ required U64Type guid = 2;
+ repeated uint32 attrId = 3;
+ repeated uint32 attrVal = 4;
+ required uint32 cardState = 5;
+ required uint32 cardType = 6;
+ required uint32 cardSlot = 7;
+ required uint32 totalAttack = 8;
+ required uint32 totalHp = 9;
+}

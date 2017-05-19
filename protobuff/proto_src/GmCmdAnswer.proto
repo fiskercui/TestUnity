@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message GmCmdAnswer
+{
+ required uint32 result = 1;
+ required string resp = 2;
+}

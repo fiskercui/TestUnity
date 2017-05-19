@@ -1,0 +1,16 @@
+option optimize_for = LITE_RUNTIME;
+
+message SignAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 item_count = 10;
+ repeated uint32 luxury_sign_id = 11;
+ required uint32 type = 2;
+ required uint32 month = 3;
+ required uint32 sign_days = 4;
+ required uint32 can_sign_days = 5;
+ required uint32 today_signed = 6;
+ required uint32 reward_day = 7;
+ repeated uint32 item_type = 8;
+ repeated uint32 item_id = 9;
+}

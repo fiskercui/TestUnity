@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+
+message ShenjiangShopAnswer
+{
+ required uint32 result = 1;
+ required uint32 type = 2;
+ required uint32 freeRefreshCount = 3;
+ required uint32 freeRefreshCD = 4;
+ required uint32 refreshCountLimit = 5;
+ repeated uint32 merchandiseId = 6;
+ repeated uint32 sold_out = 7;
+}

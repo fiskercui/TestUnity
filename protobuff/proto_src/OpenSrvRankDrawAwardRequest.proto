@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message OpenSrvRankDrawAwardRequest
+{
+ required uint32 cond1 = 1;
+}

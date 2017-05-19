@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message ArenaFlopAnswer
+{
+ required uint32 result = 1;
+ required uint32 pos = 2;
+ repeated uint32 type = 3;
+ repeated uint32 id = 4;
+ repeated uint32 num = 5;
+}

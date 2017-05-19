@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message AnnouncementNotify
+{
+ repeated uint32 times = 1;
+ repeated uint32 interval = 2;
+ repeated string content = 3;
+}

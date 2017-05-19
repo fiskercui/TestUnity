@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message BuyWudiFightBuffRequest
+{
+ required uint32 index = 1;
+ required uint32 boss_ts = 2;
+ required uint32 buff_index = 3;
+}

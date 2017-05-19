@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message LegionWorshipOpenBoxRequest
+{
+ required uint32 box_order = 1;
+}

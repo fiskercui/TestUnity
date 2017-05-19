@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message EquipStrengthenAnswer
+{
+ required uint32 result = 1;
+ required uint32 extra_level = 2;
+}

@@ -1,0 +1,18 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+import "CardAttrData.proto";
+import "EquipProp.proto";
+import "TreasureProp.proto";
+message PlayerInfo
+{
+ required U64Type player_id = 1;
+ repeated uint32 cheer = 10;
+ required string name = 2;
+ repeated uint32 attr = 3;
+ repeated CardAttrData card = 4;
+ repeated EquipProp equip = 5;
+ repeated U64Type embattle = 6;
+ required uint32 towerStar = 7;
+ repeated uint32 passiveSkill = 8;
+ repeated TreasureProp treasure = 9;
+}

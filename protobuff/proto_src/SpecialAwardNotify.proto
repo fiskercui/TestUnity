@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message SpecialAwardNotify
+{
+ required uint32 type = 1;
+ repeated uint32 args = 2;
+ repeated uint32 item_type = 3;
+ repeated uint32 item_id = 4;
+ repeated uint32 item_count = 5;
+}

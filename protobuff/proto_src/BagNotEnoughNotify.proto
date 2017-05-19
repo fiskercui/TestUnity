@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message BagNotEnoughNotify
+{
+ required uint32 type = 1;
+ required uint32 bag_type = 2;
+}

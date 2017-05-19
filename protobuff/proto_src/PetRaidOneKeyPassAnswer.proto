@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message PetRaidOneKeyPassAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 item_type = 2;
+ repeated uint32 item_id = 3;
+ repeated uint32 item_num = 4;
+ required uint32 send_mail = 5;
+}

@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+
+message OpenFundAnswer
+{
+ required uint32 result = 1;
+ required uint32 has_bought = 2;
+ repeated uint32 fund_id = 3;
+ repeated uint32 fund_get = 4;
+ required uint32 buy_num = 5;
+ repeated uint32 welfare_id = 6;
+ repeated uint32 welfare_get = 7;
+}

@@ -1,0 +1,26 @@
+option optimize_for = LITE_RUNTIME;
+
+message TowerLadderInfoAnswer
+{
+ required uint32 result = 1;
+ required uint32 reset_cnt = 10;
+ required uint32 elite_cnt = 11;
+ required uint32 elite_buy_cnt = 12;
+ required uint32 reset_ts = 13;
+ required uint32 serial_id = 14;
+ required uint32 cur_floor_star = 15;
+ required uint32 star3_id = 16;
+ required uint32 star6_id = 17;
+ required uint32 star9_id = 18;
+ required uint32 elite_max_id = 19;
+ required uint32 cur_id = 2;
+ optional uint32 history_3star_id = 20;
+ optional uint32 history_3star_floor = 21;
+ required uint32 cur_floor = 3;
+ required uint32 history_id = 4;
+ required uint32 history_floor = 5;
+ repeated uint32 attr_add = 6;
+ required uint32 total_star = 7;
+ required uint32 cur_star = 8;
+ required uint32 history_star = 9;
+}

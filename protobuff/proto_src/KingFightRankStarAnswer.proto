@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message KingFightRankStarAnswer
+{
+ required uint32 result = 1;
+ required uint32 selfrank = 2;
+ required uint32 selfstar = 3;
+ repeated uint32 ranklist = 4;
+ repeated string namelist = 5;
+ repeated uint32 starlist = 6;
+}

@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+import "GameItemData.proto";
+message BlessingBagNotify
+{
+ required uint32 id = 1;
+ repeated GameItemData bags = 2;
+ required uint32 box_type = 3;
+ repeated GameItemData boxes = 4;
+}

@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message HeroCultureRequest
+{
+ required U64Type guid = 1;
+ required uint32 num = 2;
+ required uint32 type = 3;
+}

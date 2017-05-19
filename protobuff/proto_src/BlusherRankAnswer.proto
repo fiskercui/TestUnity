@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message BlusherRankAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 id = 2;
+ repeated uint32 admire = 3;
+ repeated uint32 rank = 4;
+}

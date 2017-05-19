@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message VisitFriendRewardInfo
+{
+ required U64Type player_id = 1;
+ repeated uint32 route_id = 2;
+ repeated uint32 all_get = 3;
+ required uint32 add_ts = 4;
+}

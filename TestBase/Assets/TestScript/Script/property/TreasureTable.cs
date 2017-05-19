@@ -1,0 +1,36 @@
+public class TreasureTable
+{
+	 public int id;
+	 public string name;
+	 public int type;
+	 public int potentiality;
+	 public int openLevel;
+	 public int quality;
+	 public int dressLevel;
+	 public int canGrow;
+	 public int resident;
+	 public int fragmentId;
+	 public string skills;
+	 public int forgeTreasure;
+	 public int strengthenType1;
+	 public int strengthenValue1;
+	 public int strengthenGrow1;
+	 public int strengthenType2;
+	 public int strengthenValue2;
+	 public int strengthenGrow2;
+	 public int baseCostExp;
+	 public int growCostExp;
+	 public int offerExp;
+	 public int refiningType1;
+	 public int refiningValue1;
+	 public int refiningGrow1;
+	 public int refiningType2;
+	 public int refiningValue2;
+	 public int refiningGrow2;
+	 public string icon;
+	 public string desc;
+	 public int gm;
+	 public int canSell;
+	 public int sellType;
+	 public int sellValue;
+}

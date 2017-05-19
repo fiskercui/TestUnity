@@ -1,0 +1,35 @@
+public class ArenaRobotTable
+{
+	 public int id;
+	 public int upLimit;
+	 public int downLimit;
+	 public string name;
+	 public int lv;
+	 public string herolist;
+	 public string oversteplv;
+	 public string awakenlv;
+	 public string hero1equip;
+	 public string hero1equiplv;
+	 public string hero1treasure;
+	 public string hero1treasurelv;
+	 public string hero2equip;
+	 public string hero2equiplv;
+	 public string hero2treasure;
+	 public string hero2treasurelv;
+	 public string hero3equip;
+	 public string hero3equiplv;
+	 public string hero3treasure;
+	 public string hero3treasurelv;
+	 public string hero4equip;
+	 public string hero4equiplv;
+	 public string hero4treasure;
+	 public string hero4treasurelv;
+	 public string hero5equip;
+	 public string hero5equiplv;
+	 public string hero5treasure;
+	 public string hero5treasurelv;
+	 public string hero6equip;
+	 public string hero6equiplv;
+	 public string hero6treasure;
+	 public string hero6treasurelv;
+}

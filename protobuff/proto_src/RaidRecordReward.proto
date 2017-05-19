@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message RaidRecordReward
+{
+ required uint32 id = 1;
+ required uint32 type = 2;
+ required uint32 section_flag = 3;
+ required uint32 raid_flag = 4;
+}

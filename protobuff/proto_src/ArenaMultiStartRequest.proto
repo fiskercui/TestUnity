@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message ArenaMultiStartRequest
+{
+ required U64Type player_id = 1;
+ required uint32 rank = 2;
+ required uint32 count = 3;
+}

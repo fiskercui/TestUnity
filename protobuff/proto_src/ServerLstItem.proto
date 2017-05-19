@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message ServerLstItem
+{
+ required uint32 id = 1;
+ required string add = 2;
+ required uint32 stat = 3;
+ required string name = 4;
+ required string rolename = 5;
+}

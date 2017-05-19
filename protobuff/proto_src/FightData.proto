@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+import "FightArray.proto";
+import "FighterStatu.proto";
+import "FightRound.proto";
+message FightData
+{
+ required FightArray FightsArray = 1;
+ repeated FighterStatu fightersstatu = 2;
+ repeated FightRound round = 3;
+ repeated uint32 cheerlist = 4;
+ repeated uint32 opening_buff = 5;
+}

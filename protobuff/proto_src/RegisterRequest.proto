@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message RegisterRequest
+{
+ required string account = 1;
+ required string pwd = 2;
+}

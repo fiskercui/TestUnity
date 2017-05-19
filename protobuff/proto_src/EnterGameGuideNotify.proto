@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+
+message EnterGameGuideNotify
+{
+ repeated uint32 id = 1;
+ repeated uint32 end_cd = 2;
+ repeated string title = 3;
+ repeated uint32 func = 4;
+ repeated string icon = 5;
+ repeated string label = 6;
+ repeated uint32 jump = 7;
+ repeated uint32 sort = 8;
+}

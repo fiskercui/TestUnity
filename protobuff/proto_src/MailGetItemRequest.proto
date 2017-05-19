@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+import "MailData.proto";
+message MailGetItemRequest
+{
+ repeated U64Type mail_id = 1;
+ repeated MailData data = 2;
+}

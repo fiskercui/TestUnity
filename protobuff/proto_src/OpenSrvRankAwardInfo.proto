@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+
+message OpenSrvRankAwardInfo
+{
+ required uint32 cond1 = 1;
+ required uint32 cond2 = 2;
+ required uint32 flag = 3;
+ repeated uint32 type = 4;
+ repeated uint32 id = 5;
+ repeated uint32 num = 6;
+ optional uint32 rank_end = 7;
+}

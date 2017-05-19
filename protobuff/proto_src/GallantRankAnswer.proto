@@ -1,0 +1,21 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message GallantRankAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 role_id = 10;
+ repeated uint32 fashion_id = 11;
+ repeated uint32 viplv = 12;
+ repeated uint32 fight_power = 13;
+ repeated uint32 level = 14;
+ repeated U64Type legion_id = 15;
+ repeated string legion_name = 16;
+ required uint32 self_rank = 2;
+ required uint32 self_value = 3;
+ required uint32 self_active_value = 4;
+ repeated uint32 rank = 5;
+ repeated U64Type player_id = 6;
+ repeated string player_name = 7;
+ repeated uint32 value = 8;
+ repeated uint32 active_value = 9;
+}

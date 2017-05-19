@@ -1,0 +1,17 @@
+option optimize_for = LITE_RUNTIME;
+import "MailData.proto";
+import "U64Type.proto";
+message MailListAnswer
+{
+ required uint32 result = 1;
+ repeated MailData data = 10;
+ repeated uint32 type = 11;
+ repeated U64Type mail_id = 2;
+ repeated uint32 reader = 3;
+ repeated uint32 received = 4;
+ repeated uint32 ts = 5;
+ repeated uint32 templete_id = 6;
+ repeated string sender = 7;
+ repeated string title = 8;
+ repeated string context = 9;
+}

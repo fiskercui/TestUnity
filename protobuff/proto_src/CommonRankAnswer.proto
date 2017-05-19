@@ -1,0 +1,20 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message CommonRankAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 likes = 10;
+ repeated uint32 viplv = 11;
+ repeated uint32 fashion_id = 12;
+ repeated uint32 pet_id = 13;
+ repeated U64Type legion_id = 14;
+ repeated string legion_name = 15;
+ required uint32 type = 2;
+ required uint32 left_like_count = 3;
+ repeated uint32 rank = 4;
+ repeated U64Type player_id = 5;
+ repeated string name = 6;
+ repeated uint32 main_card_id = 7;
+ repeated uint32 level = 8;
+ repeated uint32 fight_power = 9;
+}

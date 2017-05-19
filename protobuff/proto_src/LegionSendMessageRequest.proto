@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message LegionSendMessageRequest
+{
+ required string content = 1;
+}

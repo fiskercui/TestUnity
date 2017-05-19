@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+import "StageInfoPlayerInfo.proto";
+message KingFightStageInfoAnswer
+{
+ required uint32 result = 1;
+ required uint32 id = 2;
+ repeated uint32 god_buff = 3;
+ required uint32 refresh = 4;
+ required uint32 fight_cnt = 5;
+ required uint32 total_buy_cnt = 6;
+ repeated StageInfoPlayerInfo players = 7;
+}

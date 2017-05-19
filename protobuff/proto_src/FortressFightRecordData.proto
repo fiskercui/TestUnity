@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+
+message FortressFightRecordData
+{
+ required uint32 fortress_id = 1;
+ required uint64 occupant_id = 2;
+ required uint64 record_id = 3;
+ required uint64 player_id = 4;
+ required string player_name = 5;
+ required uint32 fight_power = 6;
+ required uint32 role_id = 7;
+ required string legion_name = 8;
+}

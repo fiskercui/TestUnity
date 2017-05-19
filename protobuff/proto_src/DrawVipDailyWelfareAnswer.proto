@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message DrawVipDailyWelfareAnswer
+{
+ required uint32 result = 1;
+ required uint32 id = 2;
+ required uint32 vip_lv = 3;
+ repeated uint32 item_type = 4;
+ repeated uint32 item_id = 5;
+ repeated uint32 item_num = 6;
+}

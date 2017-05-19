@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message VisitGetRewardAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 item_types = 2;
+ repeated uint32 item_ids = 3;
+ repeated uint32 item_nums = 4;
+}

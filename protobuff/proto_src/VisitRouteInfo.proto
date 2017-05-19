@@ -1,0 +1,18 @@
+option optimize_for = LITE_RUNTIME;
+import "VisitRouteEvent.proto";
+import "U64Type.proto";
+message VisitRouteInfo
+{
+ required uint32 route_id = 1;
+ repeated VisitRouteEvent events = 10;
+ required uint32 speed_up = 11;
+ required uint32 reward_num = 12;
+ required uint32 card_id = 2;
+ required U64Type card_guid = 3;
+ required uint32 station_id = 4;
+ required uint32 horse_lv = 5;
+ repeated uint32 station_ts = 6;
+ repeated uint32 item_types = 7;
+ repeated uint32 item_ids = 8;
+ repeated uint32 item_nums = 9;
+}

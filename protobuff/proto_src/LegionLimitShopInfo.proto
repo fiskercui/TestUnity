@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message LegionLimitShopInfo
+{
+ required uint32 result = 1;
+ required U64Type legion_id = 2;
+ required uint32 index = 3;
+ required uint32 refresh_cd = 4;
+ repeated uint32 merchandise_ids = 5;
+ repeated uint32 merchandise_nums = 6;
+ repeated uint32 buy_flag = 7;
+}

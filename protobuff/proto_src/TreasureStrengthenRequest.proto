@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message TreasureStrengthenRequest
+{
+ required uint32 pos = 1;
+ required uint32 posZhengXing = 2;
+ repeated uint32 treasureLst = 3;
+}

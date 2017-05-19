@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message LegionEvent
+{
+ required uint32 id = 1;
+ required uint32 ts = 2;
+ repeated string key = 3;
+ repeated string val = 4;
+}

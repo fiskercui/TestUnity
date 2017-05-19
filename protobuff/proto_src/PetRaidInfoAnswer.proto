@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+
+message PetRaidInfoAnswer
+{
+ required uint32 result = 1;
+ required uint32 raid_id = 2;
+ required uint32 left_count = 3;
+ required uint32 reset_count = 4;
+ required uint32 day_of_week = 5;
+ required uint32 no_failure_record_id = 6;
+ required uint32 used_one_key_pass = 7;
+}

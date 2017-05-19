@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+import "FightData.proto";
+import "FortressFightRecordData.proto";
+message FightRecordRequest
+{
+ required uint32 version = 1;
+ required uint32 win = 2;
+ repeated FightData fightdatas = 3;
+ required uint32 type = 4;
+ optional FortressFightRecordData fortress = 5;
+}

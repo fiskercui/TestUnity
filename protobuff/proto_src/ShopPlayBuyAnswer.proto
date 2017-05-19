@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message ShopPlayBuyAnswer
+{
+ required uint32 result = 1;
+ required uint32 id = 2;
+ required uint32 buy_times = 3;
+}

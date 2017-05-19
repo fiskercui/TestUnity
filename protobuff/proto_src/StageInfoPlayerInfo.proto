@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message StageInfoPlayerInfo
+{
+ required U64Type player_id = 1;
+ optional uint32 pet_id = 10;
+ required string name = 2;
+ required uint32 level = 3;
+ required uint32 main_id = 4;
+ required uint32 star = 5;
+ required uint32 fight_power = 6;
+ required uint32 hp = 7;
+ required uint32 totalHp = 8;
+ optional uint32 fashion_id = 9;
+}

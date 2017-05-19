@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message CrusadeFortressOpenBoxRequest
+{
+ required uint32 id = 1;
+ required uint32 idx = 2;
+}

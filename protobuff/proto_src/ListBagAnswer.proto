@@ -1,0 +1,16 @@
+option optimize_for = LITE_RUNTIME;
+import "BagItemProp.proto";
+import "EquipProp.proto";
+import "TreasureProp.proto";
+import "FashionProp.proto";
+import "PetProp.proto";
+message ListBagAnswer
+{
+ required uint32 result = 1;
+ required uint32 bagType = 2;
+ repeated BagItemProp item = 3;
+ repeated EquipProp equip = 4;
+ repeated TreasureProp treasure = 5;
+ repeated FashionProp fashion = 6;
+ repeated PetProp pet = 7;
+}

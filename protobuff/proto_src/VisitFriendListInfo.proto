@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message VisitFriendListInfo
+{
+ repeated U64Type player_id = 1;
+ repeated string name = 2;
+ repeated uint32 offline_ts = 3;
+ repeated uint32 card_id = 4;
+ repeated uint32 viplv = 5;
+ repeated uint32 lv = 6;
+ repeated uint32 add_ts = 7;
+ repeated uint32 fashion_id = 8;
+}

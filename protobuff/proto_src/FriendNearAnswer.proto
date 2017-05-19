@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message FriendNearAnswer
+{
+ required uint32 result = 1;
+ repeated U64Type playerid = 2;
+ repeated string name = 3;
+ repeated uint32 lv = 4;
+}

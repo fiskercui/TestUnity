@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message FenjieGallantRequest
+{
+ repeated uint32 pos = 1;
+ repeated uint32 num = 2;
+}

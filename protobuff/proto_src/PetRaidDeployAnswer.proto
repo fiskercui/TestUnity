@@ -1,0 +1,14 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message PetRaidDeployAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 pos = 2;
+ repeated U64Type guid = 3;
+ repeated uint32 id = 4;
+ repeated uint32 level = 5;
+ required uint32 pet_id = 6;
+ required uint32 pet_level = 7;
+ required uint32 pet_refine_level = 8;
+ required uint32 fashion_id = 9;
+}

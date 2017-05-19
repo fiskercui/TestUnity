@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message LegionChangeAcceptTypeRequest
+{
+ required uint32 accept_type = 1;
+ required uint32 accept_value = 2;
+}

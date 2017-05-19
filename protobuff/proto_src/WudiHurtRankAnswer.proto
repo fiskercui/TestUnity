@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message WudiHurtRankAnswer
+{
+ required uint32 result = 1;
+ required uint32 self_rank = 2;
+ required U64Type self_hurt = 3;
+ repeated U64Type player_id = 4;
+ repeated string player_name = 5;
+ repeated U64Type hurt = 6;
+ required U64Type boss_hp_limit = 7;
+}

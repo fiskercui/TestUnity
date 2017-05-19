@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+import "PlayerInfo.proto";
+message ArenaStartServerRequest
+{
+ required uint32 selfRank = 1;
+ required uint32 peerRank = 2;
+ required PlayerInfo peerinfo = 3;
+}

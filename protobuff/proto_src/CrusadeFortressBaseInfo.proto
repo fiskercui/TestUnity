@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message CrusadeFortressBaseInfo
+{
+ required U64Type player_id = 1;
+ optional uint32 fashion_id = 10;
+ required uint32 card_id = 2;
+ required string name = 3;
+ required uint32 level = 4;
+ required uint32 fight_cap = 5;
+ required U64Type cur_hp = 6;
+ required U64Type hp_limit = 7;
+ required uint32 protect_cd = 8;
+ required uint32 id = 9;
+}

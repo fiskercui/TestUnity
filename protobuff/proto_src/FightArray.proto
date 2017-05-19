@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+
+message FightArray
+{
+ repeated uint32 positions = 1;
+ repeated uint32 pet_refine_lv = 10;
+ repeated uint32 roleids = 2;
+ repeated uint32 color = 3;
+ optional string name = 4;
+ optional string attack_name = 5;
+ repeated uint32 roletype = 6;
+ repeated uint32 rolefashion = 7;
+ repeated uint32 pet_pos = 8;
+ repeated uint32 pet_id = 9;
+}

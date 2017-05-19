@@ -1,0 +1,17 @@
+option optimize_for = LITE_RUNTIME;
+
+message TowerLadderStartFloorData
+{
+ required uint32 gate = 1;
+ repeated uint32 floor_item_num = 10;
+ optional uint32 defeat = 11;
+ optional uint32 cond_value = 12;
+ required uint32 win = 2;
+ required uint32 star = 3;
+ required uint32 starcond = 4;
+ repeated uint32 item_type = 5;
+ repeated uint32 item_id = 6;
+ repeated uint32 item_num = 7;
+ repeated uint32 floor_item_type = 8;
+ repeated uint32 floor_item_id = 9;
+}

@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message SystemUpdateNotify
+{
+ repeated uint32 type = 1;
+ repeated uint32 value = 2;
+}

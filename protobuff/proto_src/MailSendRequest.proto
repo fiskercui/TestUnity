@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message MailSendRequest
+{
+ required U64Type recv_id = 1;
+ required U64Type sender_id = 2;
+ required string sender_name = 3;
+ required string title = 4;
+ required string context = 5;
+ required uint32 type = 6;
+}

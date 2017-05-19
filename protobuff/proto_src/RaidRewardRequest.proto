@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message RaidRewardRequest
+{
+ required uint32 section_id = 1;
+ required uint32 section_type = 2;
+ required uint32 reward_type = 3;
+ required uint32 num = 4;
+}

@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message FightRequest
+{
+ required uint32 fuben_id = 1;
+ required uint32 section_id = 2;
+ required uint32 type = 3;
+ optional uint32 isQuick = 4;
+}

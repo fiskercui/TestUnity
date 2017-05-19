@@ -1,0 +1,29 @@
+public class ResRole
+{
+	 public int roleID;
+	 public string sceneType;
+	 public string scenePic;
+	 public string skin;
+	 public string skeleton;
+	 public string role_fashion;
+	 public string down_skin;
+	 public string down_skeleton;
+	 public string down_action;
+	 public string down_fashion;
+	 public string up_skin;
+	 public string up_skeleton;
+	 public string up_action;
+	 public string up_fashion;
+	 public string dou_skin;
+	 public string dou_skeleton;
+	 public string dou_action;
+	 public string action_idle1;
+	 public string action_idle2;
+	 public string action_attack;
+	 public string action_special;
+	 public string action_move;
+	 public string action_hurt;
+	 public string action_evade;
+	 public string action_block;
+	 public string action_dead;
+}

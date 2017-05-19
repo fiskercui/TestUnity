@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message UseCDKAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 awardtype = 2;
+ repeated uint32 awardid = 3;
+ repeated uint32 awardnum = 4;
+}

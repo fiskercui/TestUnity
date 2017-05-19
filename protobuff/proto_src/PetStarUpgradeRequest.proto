@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message PetStarUpgradeRequest
+{
+ required uint32 bag_type = 1;
+ required uint32 pos = 2;
+}

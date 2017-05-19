@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message NianEventNotify
+{
+ required uint32 end_ts = 1;
+ required uint32 type = 2;
+}

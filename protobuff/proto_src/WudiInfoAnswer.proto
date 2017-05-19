@@ -1,0 +1,28 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message WudiInfoAnswer
+{
+ required uint32 result = 1;
+ required uint32 over_cd = 10;
+ required uint32 boss_buff1 = 11;
+ required uint32 boss_buff2 = 12;
+ required uint32 boss_ts = 13;
+ required uint32 fight_cnt = 14;
+ required uint32 total_buy_fight_cnt = 15;
+ required uint32 fight_cd = 16;
+ required uint32 fight_buff = 17;
+ required uint32 self_rank = 18;
+ required U64Type self_hurt = 19;
+ required uint32 index = 2;
+ optional uint32 next_begin_ts = 20;
+ optional uint32 next_end_ts = 21;
+ optional uint32 fashion_id = 22;
+ optional uint32 pet_id = 23;
+ required U64Type player_id = 3;
+ required string player_name = 4;
+ required uint32 card_id = 5;
+ required uint32 level = 6;
+ required U64Type fight_power = 7;
+ required U64Type cur_hp = 8;
+ required U64Type max_hp = 9;
+}

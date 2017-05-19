@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message GuildCommitRequest
+{
+ required uint32 idx = 1;
+ optional uint32 exception = 2;
+}

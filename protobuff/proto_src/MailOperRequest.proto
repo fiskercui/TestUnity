@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message MailOperRequest
+{
+ required U64Type mail_id = 1;
+}

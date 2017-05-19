@@ -1,0 +1,17 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message LegionListAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 status = 10;
+ repeated uint32 accept_type = 11;
+ repeated uint32 accept_value = 12;
+ repeated U64Type legion_id = 2;
+ repeated string name = 3;
+ repeated uint32 logo_id = 4;
+ repeated uint32 frame_id = 5;
+ repeated uint32 level = 6;
+ repeated uint32 member_num = 7;
+ repeated string head_name = 8;
+ repeated string declaration = 9;
+}

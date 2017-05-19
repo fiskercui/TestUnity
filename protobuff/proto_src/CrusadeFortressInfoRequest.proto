@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message CrusadeFortressInfoRequest
+{
+ required uint32 id = 1;
+}

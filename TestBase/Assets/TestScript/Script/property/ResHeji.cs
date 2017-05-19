@@ -1,0 +1,37 @@
+public class ResHeji
+{
+	 public int playID;
+	 public int skillid;
+	 public string name;
+	 public string background_skin;
+	 public string background_skel;
+	 public string background_action;
+	 public string virtual_acition_skin;
+	 public string virtual_acition_skel;
+	 public string virtual_acition_action;
+	 public string middle_skin;
+	 public string middle_skel;
+	 public string middle_action;
+	 public string lizi_skin;
+	 public string lizi_skel;
+	 public string lizi_action;
+	 public string text_skin;
+	 public string text_skel;
+	 public string text_action;
+	 public string user1;
+	 public string user2;
+	 public string action1;
+	 public string action2;
+	 public int play1;
+	 public int play2;
+	 public string user1_pic;
+	 public string user2_pic;
+	 public string environment_effect_skin;
+	 public string environment_effect_skel;
+	 public int start_time;
+	 public int end_time;
+	 public string weapon_effect;
+	 public string weapon_dir;
+	 public string weapon_velocity;
+	 public int voice;
+}

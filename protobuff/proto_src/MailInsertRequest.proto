@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+import "MailData.proto";
+message MailInsertRequest
+{
+ required uint32 ts = 1;
+ required uint32 need_res = 2;
+ required uint32 templete_id = 3;
+ required string sender = 4;
+ required string title = 5;
+ required string context = 6;
+ required MailData data = 7;
+ required uint32 type = 8;
+}

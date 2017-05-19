@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message ChoukaShareLuckNotify
+{
+ repeated uint32 share_id = 1;
+ repeated uint32 luck = 2;
+}

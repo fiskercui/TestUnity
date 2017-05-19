@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message FashionStrengthenRequest
+{
+ required uint32 pos = 1;
+ required uint32 dress = 2;
+ required uint32 times = 3;
+}

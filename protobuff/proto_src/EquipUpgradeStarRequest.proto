@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message EquipUpgradeStarRequest
+{
+ required uint32 posZhengXing = 1;
+ required uint32 pos = 2;
+ required uint32 utype = 3;
+}

@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message KingFightBuyCntRequest
+{
+ required uint32 count = 1;
+}

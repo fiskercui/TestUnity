@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message LegionBossInfoAnswer
+{
+ required uint32 result = 1;
+ required U64Type max_damage = 10;
+ required uint32 fight_stage = 2;
+ required uint32 cycle = 3;
+ required uint32 stage = 4;
+ required uint32 boss_hp = 5;
+ repeated uint32 reward = 6;
+ required uint32 rank = 7;
+ required uint32 left_count = 8;
+ required uint32 next_fight_ts = 9;
+}

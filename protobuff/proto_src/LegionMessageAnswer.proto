@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+
+message LegionMessageAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 message_id = 2;
+ repeated string name = 3;
+ repeated uint32 ts = 4;
+ repeated string content = 5;
+ repeated uint32 sticky = 6;
+ repeated uint32 position = 7;
+}

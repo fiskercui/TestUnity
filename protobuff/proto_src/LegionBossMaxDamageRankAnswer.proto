@@ -1,0 +1,28 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message LegionBossMaxDamageRankAnswer
+{
+ required uint32 result = 1;
+ repeated U64Type max_damage = 10;
+ repeated string legion_name = 11;
+ repeated uint32 legion_logo_id = 12;
+ repeated uint32 legion_frame_id = 13;
+ repeated uint32 fashion_id = 14;
+ required U64Type killer_id = 15;
+ required string killer_name = 16;
+ required uint32 killer_level = 17;
+ required uint32 killer_kill_ts = 18;
+ required uint32 killer_main_card_id = 19;
+ required uint32 stage = 2;
+ required string killer_legion_name = 20;
+ required uint32 killer_viplv = 21;
+ optional uint32 killer_fashion_id = 22;
+ required uint32 self_rank = 25;
+ required U64Type self_max_damage = 26;
+ repeated uint32 rank = 4;
+ repeated U64Type player_id = 5;
+ repeated string name = 6;
+ repeated uint32 main_card_id = 7;
+ repeated uint32 level = 8;
+ repeated uint32 viplv = 9;
+}

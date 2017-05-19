@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message ListBagRequest
+{
+ required uint32 bagType = 1;
+}

@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message WudiFightRequest
+{
+ required uint32 index = 1;
+ required uint32 boss_ts = 2;
+}

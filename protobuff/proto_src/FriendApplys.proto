@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message FriendApplys
+{
+ repeated uint64 playerids = 1;
+ repeated uint32 times = 2;
+}

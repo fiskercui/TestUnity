@@ -1,0 +1,16 @@
+option optimize_for = LITE_RUNTIME;
+
+message BlusherData
+{
+ required uint32 id = 1;
+ repeated uint32 user_data = 10;
+ required uint32 quyue_times = 11;
+ required uint32 lv = 2;
+ required uint32 exp = 3;
+ required uint32 luck_id = 4;
+ required uint32 admire = 5;
+ required uint32 all_admire = 6;
+ required uint32 lv_reward = 7;
+ repeated uint32 attr_id = 8;
+ repeated uint32 attr_value = 9;
+}

@@ -1,0 +1,19 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message FriendListAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 viplv = 10;
+ repeated uint32 energy_send = 11;
+ repeated uint32 energy_recv = 12;
+ repeated uint32 fashion_id = 13;
+ repeated U64Type legion_id_new = 14;
+ repeated U64Type playerid = 2;
+ repeated string name = 3;
+ repeated uint32 offline_ts = 4;
+ repeated uint32 fc = 5;
+ repeated uint32 legion_id = 6;
+ repeated string legion_name = 7;
+ repeated uint32 lv = 8;
+ repeated uint32 main_id = 9;
+}

@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message OpenSrvRankDrawAwardAnswer
+{
+ required uint32 result = 1;
+ required uint32 cond1 = 2;
+ repeated uint32 item_type = 3;
+ repeated uint32 item_id = 4;
+ repeated uint32 item_num = 5;
+}

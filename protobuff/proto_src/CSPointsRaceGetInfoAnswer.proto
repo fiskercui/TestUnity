@@ -1,0 +1,19 @@
+option optimize_for = LITE_RUNTIME;
+
+message CSPointsRaceGetInfoAnswer
+{
+ required uint32 result = 1;
+ required uint32 duration = 10;
+ required uint32 ended_show = 11;
+ optional uint32 last_rank = 12;
+ optional uint32 history_rank = 13;
+ optional uint32 state = 14;
+ required uint32 end_cd = 2;
+ required uint32 points = 3;
+ required uint32 last_points = 4;
+ required uint32 history_points = 5;
+ required uint32 rank = 6;
+ required uint32 fight_times = 7;
+ required uint32 win_times = 8;
+ required uint32 continuous_wins = 9;
+}

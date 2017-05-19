@@ -1,0 +1,30 @@
+public class BlusherResTable
+{
+	 public int id;
+	 public string name;
+	 public string desc;
+	 public string icon;
+	 public string skin;
+	 public string bones;
+	 public string area1;
+	 public string area2;
+	 public string area3;
+	 public string action1;
+	 public string action2;
+	 public string action3;
+	 public string idleWords;
+	 public string updateWords;
+	 public string bigShyWords;
+	 public int shyAudio;
+	 public int bigShyAudio;
+	 public int quyueAudio;
+	 public int quyueTenAudio;
+	 public int updateAudio;
+	 public string text1;
+	 public string text2;
+	 public string cutSkin;
+	 public string cutBones;
+	 public string path;
+	 public int rate;
+	 public string pathAction;
+}

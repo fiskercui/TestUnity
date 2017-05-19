@@ -1,0 +1,20 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message NianRankAnswer
+{
+ required uint32 result = 1;
+ required U64Type killer_id = 15;
+ required string killer_name = 16;
+ required uint32 killer_level = 17;
+ required uint32 killer_kill_ts = 18;
+ required uint32 killer_main_card_id = 19;
+ repeated uint32 rank = 2;
+ required string killer_legion_name = 20;
+ required uint32 killer_viplv = 21;
+ required uint32 killer_fashion_id = 22;
+ required uint32 self_rank = 25;
+ required uint32 self_damage = 26;
+ repeated U64Type player_id = 3;
+ repeated string name = 4;
+ repeated uint32 damage = 5;
+}

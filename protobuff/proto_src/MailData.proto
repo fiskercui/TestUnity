@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message MailData
+{
+ repeated uint32 type = 1;
+ repeated uint32 id = 2;
+ repeated uint32 num = 3;
+ repeated string key = 4;
+ repeated string val = 5;
+}

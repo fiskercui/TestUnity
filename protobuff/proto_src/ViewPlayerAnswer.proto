@@ -1,0 +1,17 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+import "ViewPlayerData.proto";
+message ViewPlayerAnswer
+{
+ required uint32 result = 1;
+ optional uint32 pet_level = 10;
+ optional uint32 pet_refine_lv = 11;
+ required U64Type player_id = 2;
+ required string name = 3;
+ required uint32 vip_level = 4;
+ required uint32 level = 5;
+ required uint32 fight_power = 6;
+ repeated ViewPlayerData player_data = 7;
+ optional uint32 fashion_id = 8;
+ optional uint32 pet_id = 9;
+}

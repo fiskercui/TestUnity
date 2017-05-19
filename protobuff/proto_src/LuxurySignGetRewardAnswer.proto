@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message LuxurySignGetRewardAnswer
+{
+ required uint32 result = 1;
+ required uint32 id = 2;
+ repeated uint32 types = 3;
+ repeated uint32 ids = 4;
+ repeated uint32 nums = 5;
+}

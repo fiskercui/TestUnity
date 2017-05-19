@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message HuangtingAnswer
+{
+ required uint32 result = 1;
+ required uint32 next_step = 2;
+ required uint32 item_choose = 3;
+}

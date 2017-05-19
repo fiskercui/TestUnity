@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message ShopBuyRequest
+{
+ required uint32 id = 1;
+ optional uint32 times = 2;
+}

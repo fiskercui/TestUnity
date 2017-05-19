@@ -1,0 +1,14 @@
+option optimize_for = LITE_RUNTIME;
+
+message DrawLuckPackageAnswer
+{
+ required uint32 result = 1;
+ required uint32 isdef = 2;
+ required uint32 act_id = 3;
+ required uint32 cfg_id = 4;
+ required uint32 luck = 5;
+ required uint32 draw_luck_package = 6;
+ repeated uint32 item_type = 7;
+ repeated uint32 item_id = 8;
+ repeated uint32 item_count = 9;
+}

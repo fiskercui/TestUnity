@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+import "ArenaMultiStartData.proto";
+message ArenaMultiStartAnswer
+{
+ required uint32 result = 1;
+ repeated ArenaMultiStartData data = 2;
+}

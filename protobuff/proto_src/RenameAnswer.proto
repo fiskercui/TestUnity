@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message RenameAnswer
+{
+ required uint32 result = 1;
+ required string name = 2;
+}

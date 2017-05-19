@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message ModuleSubscribeRequest
+{
+ required uint32 subscribe_id = 1;
+ required uint32 unsubscribe = 2;
+}

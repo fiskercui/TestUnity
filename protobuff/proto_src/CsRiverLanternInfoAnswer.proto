@@ -1,0 +1,18 @@
+option optimize_for = LITE_RUNTIME;
+
+message CsRiverLanternInfoAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 id = 15;
+ repeated uint32 ts = 16;
+ repeated uint32 num = 17;
+ required uint32 end_ts = 2;
+ required uint32 level_max = 20;
+ required uint32 level_min = 21;
+ optional uint32 activity_id = 22;
+ repeated uint32 rank = 3;
+ repeated string name = 4;
+ repeated uint32 count = 5;
+ required uint32 self_rank = 6;
+ required uint32 self_count = 7;
+}

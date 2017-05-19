@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message HeroUpgradeLevelRequest
+{
+ required U64Type guid = 1;
+ repeated U64Type idlist = 2;
+}

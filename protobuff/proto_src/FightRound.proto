@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+import "AttackData.proto";
+message FightRound
+{
+ repeated AttackData attack = 1;
+ repeated AttackData attackPre = 2;
+}

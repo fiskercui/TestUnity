@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message CSPointsRaceStateAnswer
+{
+ required uint32 result = 1;
+ required uint32 state = 2;
+ required uint32 end_cd = 3;
+}

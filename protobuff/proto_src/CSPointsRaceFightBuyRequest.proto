@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message CSPointsRaceFightBuyRequest
+{
+ required uint32 num = 1;
+}

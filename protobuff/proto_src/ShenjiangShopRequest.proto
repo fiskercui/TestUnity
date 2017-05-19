@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message ShenjiangShopRequest
+{
+ required uint32 refresh = 1;
+ required uint32 type = 2;
+}

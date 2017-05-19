@@ -1,0 +1,19 @@
+option optimize_for = LITE_RUNTIME;
+
+message ViewPlayerData
+{
+ required uint32 card_id = 1;
+ repeated uint32 treasure_strengthen = 10;
+ repeated uint32 treasure_refining = 11;
+ optional uint32 pet_id = 12;
+ optional uint32 pet_level = 13;
+ optional uint32 pet_refine_lv = 14;
+ required uint32 card_level = 2;
+ required uint32 card_scala = 3;
+ required uint32 card_awaken_star = 4;
+ repeated uint32 equip_id = 5;
+ repeated uint32 equip_strengthen = 6;
+ repeated uint32 equip_star = 7;
+ repeated uint32 equip_refining = 8;
+ repeated uint32 treasure_id = 9;
+}

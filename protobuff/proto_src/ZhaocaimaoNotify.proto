@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message ZhaocaimaoNotify
+{
+ required uint32 end_cd = 1;
+ required uint32 count = 2;
+ required uint32 last_get = 3;
+}

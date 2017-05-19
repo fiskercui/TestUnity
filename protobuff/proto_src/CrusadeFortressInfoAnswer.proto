@@ -1,0 +1,31 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message CrusadeFortressInfoAnswer
+{
+ required uint32 result = 1;
+ required uint32 kill_count = 10;
+ repeated uint32 reward_ids = 11;
+ repeated uint32 reward_types = 12;
+ repeated uint32 reward_nums = 13;
+ repeated uint32 box_states = 14;
+ required U64Type cur_hp = 15;
+ required U64Type hp_limit = 16;
+ required uint32 today_occupide_time = 17;
+ required uint32 protect_cd = 18;
+ required uint32 buy_cnt = 19;
+ required U64Type player_id = 2;
+ required uint32 occupide_level = 20;
+ required uint32 fight_cnt = 21;
+ required uint32 total_buy_fight_cnt = 22;
+ required uint32 my_fortress_id = 23;
+ optional uint32 reason = 24;
+ optional uint32 fashion_id = 25;
+ optional uint32 pet_id = 26;
+ required uint32 card_id = 3;
+ required string name = 4;
+ required uint32 level = 5;
+ required uint32 fight_cap = 6;
+ required uint32 total_occupide_time = 7;
+ required uint32 income_cd = 8;
+ required uint32 defense_count = 9;
+}

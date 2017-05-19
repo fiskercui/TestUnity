@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+import "EquipProp.proto";
+message OnFightItem
+{
+ required uint32 id = 1;
+ required U64Type uuid = 2;
+ repeated EquipProp allequips = 3;
+ required uint32 fightpos = 4;
+ required U64Type puid = 5;
+}

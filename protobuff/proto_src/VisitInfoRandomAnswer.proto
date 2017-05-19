@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+import "VisitRouteInfo.proto";
+message VisitInfoRandomAnswer
+{
+ required uint32 result = 1;
+ required U64Type player_id = 2;
+ required string name = 3;
+ repeated VisitRouteInfo routes = 4;
+ required uint32 lv = 5;
+ required uint32 history_fight_power = 6;
+}

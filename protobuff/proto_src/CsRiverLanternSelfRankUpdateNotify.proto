@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message CsRiverLanternSelfRankUpdateNotify
+{
+ required uint32 self_rank = 1;
+ required uint32 self_count = 2;
+}

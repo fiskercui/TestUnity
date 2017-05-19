@@ -1,0 +1,17 @@
+option optimize_for = LITE_RUNTIME;
+
+message TurntableStartAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 item_types = 10;
+ repeated uint32 item_ids = 11;
+ repeated uint32 item_nums = 12;
+ required uint32 all = 2;
+ required uint32 index = 3;
+ repeated uint32 item_type = 4;
+ repeated uint32 item_id = 5;
+ repeated uint32 item_num = 6;
+ repeated uint32 group_ids = 7;
+ repeated uint32 draw_flags = 8;
+ repeated uint32 recommends = 9;
+}

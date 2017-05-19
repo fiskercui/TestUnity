@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message LevelUpNotify
+{
+ required uint32 pre_level = 1;
+ required uint32 pre_vigor = 2;
+ required uint32 pre_energy = 3;
+ required uint32 current_level = 4;
+ required uint32 current_vigor = 5;
+ required uint32 current_energy = 6;
+}

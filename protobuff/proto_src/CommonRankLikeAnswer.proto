@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message CommonRankLikeAnswer
+{
+ required uint32 result = 1;
+ required uint32 type = 2;
+ required U64Type like_player_id = 3;
+ required uint32 likes = 4;
+ required uint32 left_like_count = 5;
+ required uint32 silver = 6;
+}

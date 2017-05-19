@@ -1,0 +1,35 @@
+public class ZhaohuanBaseTable
+{
+	 public int id;
+	 public int type;
+	 public int group;
+	 public int awardSilver;
+	 public int priorityUseType;
+	 public int priorityUseItemId;
+	 public int priorityUseItemCount;
+	 public int useType;
+	 public int useItemId;
+	 public int useItemCount;
+	 public int fiveFlag;
+	 public int useItemCountForFive;
+	 public int tenFlag;
+	 public int useItemCountForTen;
+	 public string dropPackageForTen;
+	 public int freeCount;
+	 public int freeCD;
+	 public string nodeId;
+	 public string desc;
+	 public int tenDiscount;
+	 public string btnRes;
+	 public string sceneRes;
+	 public string titleRes;
+	 public int sort;
+	 public int defOpen;
+	 public string name;
+	 public int shareLuckId;
+	 public int luckPackageId;
+	 public int belongto;
+	 public int extra_reward_type;
+	 public int extra_reward_id;
+	 public int extra_reward_num;
+}

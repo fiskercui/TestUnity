@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message KingFightUseItemAnswer
+{
+ required uint32 result = 1;
+ required uint32 item_id = 2;
+ required uint32 item_num = 3;
+ required uint32 item_use_num = 4;
+}

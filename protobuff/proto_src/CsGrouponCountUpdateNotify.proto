@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message CsGrouponCountUpdateNotify
+{
+ required uint32 total_count = 1;
+ required uint32 left_count = 2;
+}

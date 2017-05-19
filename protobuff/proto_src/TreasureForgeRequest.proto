@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message TreasureForgeRequest
+{
+ required uint32 pos = 1;
+ required uint32 posZhengXing = 2;
+}

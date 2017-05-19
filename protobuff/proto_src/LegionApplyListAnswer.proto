@@ -1,0 +1,14 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message LegionApplyListAnswer
+{
+ required uint32 result = 1;
+ repeated U64Type playerid = 2;
+ repeated string name = 3;
+ repeated uint32 offline_ts = 4;
+ repeated uint32 fc = 5;
+ repeated uint32 level = 6;
+ repeated uint32 main_id = 7;
+ repeated uint32 viplv = 8;
+ repeated uint32 fashion_id = 9;
+}

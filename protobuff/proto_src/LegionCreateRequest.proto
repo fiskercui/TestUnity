@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message LegionCreateRequest
+{
+ required string name = 1;
+ required uint32 logo_id = 2;
+}

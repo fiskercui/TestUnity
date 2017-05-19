@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message BuyWudiFightCntAnswer
+{
+ required uint32 result = 1;
+ required uint32 index = 2;
+ required uint32 boss_ts = 3;
+ required uint32 fight_cnt = 4;
+ required uint32 total_buy_fight_cnt = 5;
+}

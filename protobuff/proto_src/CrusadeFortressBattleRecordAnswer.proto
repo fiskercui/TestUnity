@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message CrusadeFortressBattleRecordAnswer
+{
+ required uint32 result = 1;
+ repeated U64Type player_id = 2;
+ repeated string player_name = 3;
+ repeated uint32 player_fc = 4;
+ repeated uint32 mainid = 5;
+ repeated uint32 timestamp = 6;
+ repeated string legion_name = 7;
+ repeated U64Type fight_data_id = 8;
+}

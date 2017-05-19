@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message TowerLadderRankAnswer
+{
+ required uint32 result = 1;
+ required uint32 selfrank = 2;
+ required uint32 selfstar = 3;
+ repeated uint32 ranklist = 4;
+ repeated string namelist = 5;
+ repeated uint32 starlist = 6;
+ repeated U64Type playerlist = 7;
+ repeated uint32 mainlist = 8;
+}

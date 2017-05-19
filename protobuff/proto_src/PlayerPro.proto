@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message PlayerPro
+{
+ required U64Type player_id = 1;
+ required string name = 2;
+}

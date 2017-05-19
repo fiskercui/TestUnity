@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message ChatSendRequest
+{
+ required uint32 channel = 1;
+ required string to_name = 2;
+ required string content = 3;
+}

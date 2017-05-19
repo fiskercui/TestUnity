@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+import "MailData.proto";
+message MailGetItemAnswer
+{
+ required uint32 result = 1;
+ repeated U64Type success_id = 2;
+ repeated U64Type failed_id = 3;
+ repeated MailData data = 4;
+}

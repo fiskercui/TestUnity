@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+import "VisitOneKeyGetRewardInfo.proto";
+message VisitOneKeyGetRewardRequest2
+{
+ repeated VisitOneKeyGetRewardInfo info = 1;
+}

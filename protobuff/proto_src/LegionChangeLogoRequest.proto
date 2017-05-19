@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message LegionChangeLogoRequest
+{
+ required uint32 logo_id = 1;
+ required uint32 frame_id = 2;
+}

@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message ChatSendAnswer
+{
+ required uint32 result = 1;
+ required uint32 channel = 2;
+ required string to_name = 3;
+ required string content = 4;
+ optional uint32 fashion_id = 5;
+}

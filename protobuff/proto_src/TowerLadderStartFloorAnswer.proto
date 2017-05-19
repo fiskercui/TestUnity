@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+import "TowerLadderStartFloorData.proto";
+message TowerLadderStartFloorAnswer
+{
+ required uint32 result = 1;
+ required uint32 floor = 2;
+ repeated TowerLadderStartFloorData data = 3;
+}

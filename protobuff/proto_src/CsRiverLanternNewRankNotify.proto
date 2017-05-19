@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message CsRiverLanternNewRankNotify
+{
+ repeated uint32 rank = 1;
+ repeated string name = 2;
+ repeated uint32 count = 3;
+}

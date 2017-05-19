@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+import "ActivityData.proto";
+message ActivityListAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 act_id = 2;
+ repeated uint32 tpl_id = 3;
+ repeated uint32 forever = 4;
+ repeated string begin_date = 5;
+ repeated string end_date = 6;
+ repeated ActivityData data = 7;
+}

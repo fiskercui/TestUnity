@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+import "RaidRecordReward.proto";
+message RaidRecordAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 id = 2;
+ repeated uint32 num = 3;
+ repeated uint32 star = 4;
+ repeated RaidRecordReward reward = 5;
+ repeated uint32 rstcnt = 6;
+}

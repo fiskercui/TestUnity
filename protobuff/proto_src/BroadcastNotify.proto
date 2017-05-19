@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message BroadcastNotify
+{
+ required uint32 id = 1;
+ repeated string key = 2;
+ repeated string value = 3;
+}

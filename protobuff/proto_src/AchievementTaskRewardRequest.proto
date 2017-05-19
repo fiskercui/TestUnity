@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message AchievementTaskRewardRequest
+{
+ required uint32 type = 1;
+ required uint32 id = 2;
+}

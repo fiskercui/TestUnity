@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message WudiOpenNotify
+{
+ required uint32 status = 1;
+ required uint32 end_cd = 2;
+ optional uint32 last_status = 3;
+ optional uint32 last_interval = 4;
+}

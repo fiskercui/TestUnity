@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+
+message ArenaMultiStartData
+{
+ required uint32 win = 1;
+ required uint32 exp = 2;
+ required uint32 silver = 3;
+ required uint32 prestige = 4;
+ repeated uint32 item_type = 5;
+ repeated uint32 item_id = 6;
+ repeated uint32 item_num = 7;
+}

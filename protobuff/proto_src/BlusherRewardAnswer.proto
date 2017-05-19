@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message BlusherRewardAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 types = 2;
+ repeated uint32 ids = 3;
+ repeated uint32 nums = 4;
+ required uint32 exp = 5;
+}

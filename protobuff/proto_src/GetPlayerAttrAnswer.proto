@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message GetPlayerAttrAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 attr_id = 2;
+ repeated uint32 attr_val = 3;
+}

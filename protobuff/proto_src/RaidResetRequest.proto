@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message RaidResetRequest
+{
+ required uint32 raid_id = 1;
+ required uint32 type = 2;
+}

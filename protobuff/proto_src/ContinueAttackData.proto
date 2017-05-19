@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+import "FighterStatu.proto";
+message ContinueAttackData
+{
+ repeated uint32 attackers = 1;
+ repeated uint32 beattackers = 2;
+ required uint32 skillid = 3;
+ repeated FighterStatu newstatus = 4;
+ repeated uint32 attackersflag = 5;
+ required uint32 continuetype = 6;
+}

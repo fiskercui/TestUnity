@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+
+message AchievementTaskRewardAnswer
+{
+ required uint32 result = 1;
+ required uint32 point = 10;
+ repeated uint32 id = 2;
+ repeated uint32 progress = 3;
+ repeated uint32 state = 4;
+ repeated uint32 count = 5;
+ repeated uint32 type = 6;
+ repeated uint32 item_type = 7;
+ repeated uint32 item_id = 8;
+ repeated uint32 item_num = 9;
+}

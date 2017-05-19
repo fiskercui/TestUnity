@@ -1,0 +1,33 @@
+public class MainRoleTable
+{
+	 public int rolelvl;
+	 public int expnext;
+	 public int zhengrong;
+	 public int yuanjun;
+	 public int friendcnt;
+	 public int shizhuangcnt;
+	 public int equiplvlmax;
+	 public int petcntclient;
+	 public int petcnt;
+	 public int bagcntclient;
+	 public int bagcnt;
+	 public int cardcntclient;
+	 public int cardcnt;
+	 public int baowucntclient;
+	 public int baowucnt;
+	 public int gallantcntclient;
+	 public int gallantcnt;
+	 public int jingliup;
+	 public int tiliup;
+	 public int panjuntype;
+	 public int panjunlvlmin;
+	 public int panjunlvlmax;
+	 public int panjungxtype;
+	 public int pveexp;
+	 public int pveyinliang;
+	 public int panjunboss;
+	 public int pvpexp;
+	 public int pvpgold;
+	 public int jjccard;
+	 public int dbcard;
+}

@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message OpenSrvRankPlayerInfo
+{
+ required U64Type player_id = 1;
+ required string name = 2;
+ required uint32 level = 3;
+ required uint32 fight_power = 4;
+}

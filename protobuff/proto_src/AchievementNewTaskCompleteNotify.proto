@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message AchievementNewTaskCompleteNotify
+{
+ repeated uint32 id = 1;
+ repeated uint32 progress = 2;
+ repeated uint32 state = 3;
+ repeated uint32 count = 4;
+ repeated uint32 type = 5;
+}

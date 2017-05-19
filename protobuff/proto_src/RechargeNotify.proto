@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+
+message RechargeNotify
+{
+ required string product_id = 1;
+ repeated uint32 item_nums = 10;
+ required uint32 num = 2;
+ required int32 way = 3;
+ required int32 wayarg = 4;
+ required uint32 money = 5;
+ required uint32 yb = 6;
+ required uint32 extra_yb = 7;
+ repeated uint32 item_types = 8;
+ repeated uint32 item_ids = 9;
+}

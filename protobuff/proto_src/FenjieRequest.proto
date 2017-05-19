@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message FenjieRequest
+{
+ repeated U64Type uuid = 1;
+ repeated uint32 pos = 2;
+ required uint32 recycle_type = 3;
+ required uint32 content_type = 4;
+ required uint32 step = 5;
+}

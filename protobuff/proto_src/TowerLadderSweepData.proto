@@ -1,0 +1,14 @@
+option optimize_for = LITE_RUNTIME;
+
+message TowerLadderSweepData
+{
+ required uint32 floor = 1;
+ required uint32 gate = 2;
+ required uint32 buffid = 3;
+ repeated uint32 item_type = 4;
+ repeated uint32 item_id = 5;
+ repeated uint32 item_num = 6;
+ repeated uint32 floor_item_type = 7;
+ repeated uint32 floor_item_id = 8;
+ repeated uint32 floor_item_num = 9;
+}

@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+import "CardAttrData.proto";
+message IncHeroNotify
+{
+ required uint32 result = 1;
+ repeated uint32 oper = 2;
+ repeated CardAttrData data = 3;
+}

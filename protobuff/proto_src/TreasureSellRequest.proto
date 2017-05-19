@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message TreasureSellRequest
+{
+ repeated uint32 pos = 1;
+}

@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message HuangtingRequest
+{
+ required uint32 step = 1;
+ required uint32 item_choose = 2;
+}

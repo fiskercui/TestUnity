@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+import "PlayerPro.proto";
+message LoginAnswer
+{
+ required uint32 result = 1;
+ repeated PlayerPro baseinfo = 2;
+}

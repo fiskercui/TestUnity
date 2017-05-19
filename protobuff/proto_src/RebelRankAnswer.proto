@@ -1,0 +1,16 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message RebelRankAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 level = 10;
+ repeated uint32 fashion_id = 11;
+ required U64Type serial_id = 2;
+ repeated U64Type player_id = 3;
+ repeated string player_name = 4;
+ repeated uint32 player_rank = 5;
+ repeated uint32 credit = 6;
+ repeated uint32 hurt = 7;
+ repeated uint32 mainid = 8;
+ required uint32 selfrank = 9;
+}

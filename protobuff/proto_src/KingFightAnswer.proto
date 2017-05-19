@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+
+message KingFightAnswer
+{
+ required uint32 result = 1;
+ optional uint32 income_fortress_id = 10;
+ required uint32 id = 2;
+ required uint32 refresh = 3;
+ required uint32 total_star = 4;
+ repeated uint32 item_id = 5;
+ repeated uint32 item_num = 6;
+ repeated uint32 item_use_num = 7;
+ repeated uint32 com_id = 8;
+ repeated uint32 com_star = 9;
+}

@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+import "SweepRewardData.proto";
+message MainRaidSweepAnswer
+{
+ required uint32 result = 1;
+ required uint32 res = 2;
+ required uint32 raid_id = 3;
+ required uint32 apply_cnt = 4;
+ required uint32 rebel = 5;
+ required uint32 sure_cnt = 6;
+ repeated SweepRewardData data = 7;
+ optional uint32 new_rebel = 8;
+}

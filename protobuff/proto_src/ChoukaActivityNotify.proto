@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+
+message ChoukaActivityNotify
+{
+ repeated uint32 isdef = 1;
+ repeated uint32 draw_luck_package = 10;
+ repeated uint32 act_id = 2;
+ repeated uint32 cfg_id = 3;
+ repeated uint32 free_count = 4;
+ repeated uint32 freecd = 5;
+ repeated uint32 endcd = 6;
+ repeated uint32 node_id = 7;
+ repeated uint32 left_count = 8;
+ repeated uint32 luck = 9;
+}

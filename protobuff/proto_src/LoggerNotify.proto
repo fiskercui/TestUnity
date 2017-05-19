@@ -1,0 +1,24 @@
+option optimize_for = LITE_RUNTIME;
+
+message LoggerNotify
+{
+ repeated uint32 magic_id = 1;
+ repeated uint64 ext_num6 = 10;
+ repeated uint64 ext_num7 = 11;
+ repeated uint64 ext_num8 = 12;
+ repeated uint64 ext_num9 = 13;
+ repeated uint64 ext_num10 = 14;
+ repeated string ext_str1 = 15;
+ repeated string ext_str2 = 16;
+ repeated string ext_str3 = 17;
+ repeated string ext_str4 = 18;
+ repeated string ext_str5 = 19;
+ repeated uint32 magic_type = 2;
+ repeated uint32 magic_sub_type = 3;
+ repeated uint64 id = 4;
+ repeated uint64 ext_num1 = 5;
+ repeated uint64 ext_num2 = 6;
+ repeated uint64 ext_num3 = 7;
+ repeated uint64 ext_num4 = 8;
+ repeated uint64 ext_num5 = 9;
+}

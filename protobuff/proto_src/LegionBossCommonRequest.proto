@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message LegionBossCommonRequest
+{
+ required uint32 stage = 1;
+}

@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+import "CardAttrData.proto";
+message GetCardAttrAnswer
+{
+ required uint32 result = 1;
+ repeated CardAttrData card = 2;
+}

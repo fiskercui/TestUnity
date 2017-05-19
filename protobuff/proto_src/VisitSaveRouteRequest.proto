@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message VisitSaveRouteRequest
+{
+ repeated uint32 route_id = 1;
+ repeated uint32 card_id = 2;
+ repeated U64Type card_guid = 3;
+ repeated uint32 station_id = 4;
+ repeated uint32 horse_lv = 5;
+}

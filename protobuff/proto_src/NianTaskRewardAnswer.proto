@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+
+message NianTaskRewardAnswer
+{
+ required uint32 result = 1;
+ required uint32 id = 2;
+ required uint32 progress = 3;
+ required uint32 state = 4;
+ required uint32 count = 5;
+ repeated uint32 item_type = 6;
+ repeated uint32 item_id = 7;
+ repeated uint32 item_num = 8;
+}

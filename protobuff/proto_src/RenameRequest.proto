@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message RenameRequest
+{
+ required string name = 1;
+ required uint32 consume_type = 2;
+}

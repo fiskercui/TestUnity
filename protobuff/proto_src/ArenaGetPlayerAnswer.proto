@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message ArenaGetPlayerAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 pet_id = 10;
+ required uint32 self_rank = 2;
+ repeated U64Type player_id = 3;
+ repeated uint32 rank = 4;
+ repeated uint32 fc = 5;
+ repeated uint32 main_id = 6;
+ repeated string name = 7;
+ repeated uint32 level = 8;
+ repeated uint32 fashion_id = 9;
+}

@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message DrawLuckPackageRequest
+{
+ required uint32 isdef = 1;
+ required uint32 act_id = 2;
+ required uint32 cfg_id = 3;
+ required uint32 package_id = 4;
+ required uint32 drop_cfg_id = 5;
+}

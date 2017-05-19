@@ -1,0 +1,14 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message WudiPreselectRankAnswer
+{
+ required uint32 result = 1;
+ required uint32 self_rank = 2;
+ required uint32 self_occupy_time = 3;
+ repeated U64Type player_id = 4;
+ repeated string player_name = 5;
+ repeated uint32 occupy_time = 6;
+ repeated uint32 level = 7;
+ optional uint32 begin_ts = 8;
+ optional uint32 end_ts = 9;
+}

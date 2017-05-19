@@ -1,0 +1,20 @@
+option optimize_for = LITE_RUNTIME;
+
+message CSPointsRaceFightData
+{
+ required uint32 my_old_points = 1;
+ required uint32 his_rank = 10;
+ required uint32 add_honor = 11;
+ required uint32 continues_wins = 12;
+ required uint32 fight_times = 13;
+ required uint32 win_times = 14;
+ optional uint32 his_roleid = 15;
+ required uint32 my_old_rank = 2;
+ required uint32 my_new_points = 3;
+ required uint32 my_new_rank = 4;
+ required string my_server = 5;
+ required uint32 his_level = 6;
+ required string his_server = 7;
+ required string his_name = 8;
+ required uint32 his_points = 9;
+}

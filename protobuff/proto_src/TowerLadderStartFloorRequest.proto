@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message TowerLadderStartFloorRequest
+{
+ required uint32 floor = 1;
+}

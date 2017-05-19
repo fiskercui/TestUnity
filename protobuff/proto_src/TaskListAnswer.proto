@@ -1,0 +1,16 @@
+option optimize_for = LITE_RUNTIME;
+
+message TaskListAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 buy_times = 10;
+ repeated uint32 all_buy_times = 11;
+ required uint32 score = 2;
+ required uint32 open_ts = 3;
+ repeated uint32 id = 4;
+ repeated uint32 progress = 5;
+ repeated uint32 state = 6;
+ repeated uint32 count = 7;
+ repeated uint32 boxid = 8;
+ required uint32 reward = 9;
+}

@@ -1,0 +1,24 @@
+option optimize_for = LITE_RUNTIME;
+
+message LegionInfoAnswer
+{
+ required uint32 result = 1;
+ required string declaration = 10;
+ required uint32 position = 11;
+ required uint32 worship_value = 12;
+ required uint32 worship_count = 13;
+ required string impeach_name = 14;
+ required uint32 impeach_ts = 15;
+ required uint32 auto_del_ts = 16;
+ repeated uint32 accept_type = 17;
+ repeated uint32 accept_value = 18;
+ required uint32 accept = 19;
+ required string name = 2;
+ required uint32 logo_id = 3;
+ required uint32 frame_id = 4;
+ required uint32 level = 5;
+ required uint32 exp = 6;
+ required uint32 member_num = 7;
+ required string head_name = 8;
+ required string bulletin = 9;
+}

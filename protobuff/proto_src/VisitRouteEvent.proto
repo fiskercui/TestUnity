@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message VisitRouteEvent
+{
+ required uint32 type = 1;
+ required uint32 id = 2;
+ required uint32 ts = 3;
+ repeated string key = 4;
+ repeated string val = 5;
+}

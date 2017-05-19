@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+import "CrusadeFortressBaseInfo.proto";
+message CrusadeFortressAllInfoAnswer
+{
+ required uint32 result = 1;
+ repeated CrusadeFortressBaseInfo baseInfo = 2;
+ optional uint32 fight_cnt = 3;
+ optional uint32 total_buy_fight_cnt = 4;
+}

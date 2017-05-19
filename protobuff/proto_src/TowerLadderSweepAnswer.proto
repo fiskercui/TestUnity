@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+import "TowerLadderSweepData.proto";
+message TowerLadderSweepAnswer
+{
+ required uint32 result = 1;
+ repeated TowerLadderSweepData data = 2;
+}

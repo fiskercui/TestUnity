@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message LegionSendMessageAnswer
+{
+ required uint32 result = 1;
+ required uint32 message_id = 2;
+ required string name = 3;
+ required uint32 ts = 4;
+ required string content = 5;
+ optional uint32 position = 6;
+}

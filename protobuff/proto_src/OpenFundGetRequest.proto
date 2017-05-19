@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message OpenFundGetRequest
+{
+ required uint32 fund_id = 2;
+}

@@ -1,0 +1,34 @@
+public class GallantEntryStarTable
+{
+	 public int id;
+	 public int entry_id;
+	 public string name;
+	 public int chapter_id;
+	 public int color;
+	 public int star;
+	 public int value;
+	 public int open_main_raid;
+	 public int open_level;
+	 public int card_1;
+	 public int num_1;
+	 public int card_2;
+	 public int num_2;
+	 public int card_3;
+	 public int num_3;
+	 public int card_4;
+	 public int num_4;
+	 public int card_5;
+	 public int num_5;
+	 public int card_6;
+	 public int num_6;
+	 public int card_7;
+	 public int num_7;
+	 public int type_1;
+	 public int value_1;
+	 public int type_2;
+	 public int value_2;
+	 public int type_3;
+	 public int value_3;
+	 public int type_4;
+	 public int value_4;
+}

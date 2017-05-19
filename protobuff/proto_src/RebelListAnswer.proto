@@ -1,0 +1,26 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+import "RebelExtInfo.proto";
+message RebelListAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 honortype = 10;
+ repeated uint32 lv = 11;
+ repeated uint32 role = 12;
+ repeated uint32 state = 13;
+ repeated U64Type hurt = 14;
+ repeated string hurtname = 15;
+ repeated U64Type selfhurt = 16;
+ repeated uint32 share_state = 17;
+ required U64Type credit = 18;
+ required U64Type totalhurt = 19;
+ repeated U64Type serial_id = 2;
+ repeated RebelExtInfo extinfo = 20;
+ repeated uint32 id = 3;
+ repeated uint32 ts = 4;
+ repeated string name = 5;
+ repeated U64Type max_hp = 6;
+ repeated U64Type cur_hp = 7;
+ repeated string killname = 8;
+ repeated uint32 exploit_type = 9;
+}

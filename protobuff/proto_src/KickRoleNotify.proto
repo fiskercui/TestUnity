@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message KickRoleNotify
+{
+ required uint32 reason = 1;
+}

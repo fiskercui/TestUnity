@@ -1,0 +1,37 @@
+public class EquipPropTable
+{
+	 public int id;
+	 public string name;
+	 public string icon;
+	 public string icon_big;
+	 public int equip_type;
+	 public int starlvl;
+	 public int quality;
+	 public int potentiality;
+	 public int wear_level;
+	 public int suit_id;
+	 public int return_well;
+	 public int return_item_id;
+	 public int return_item_num;
+	 public int strength_type;
+	 public int strength_value;
+	 public int strength_growth;
+	 public int strength_crit;
+	 public int strength_money;
+	 public int is_sold;
+	 public int price_type;
+	 public int price;
+	 public int refining_type_1;
+	 public int refining_value_1;
+	 public int refining_growth_1;
+	 public int refining_type_2;
+	 public int refining_value_2;
+	 public int refining_growth_2;
+	 public int refining_exp;
+	 public string equipment_skill;
+	 public int equip_star_id;
+	 public int canDrop;
+	 public int gm;
+	 public int fragment_id;
+	 public string descriptions;
+}

@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+import "OpenSrvRankPlayerInfo.proto";
+message OpenSrvRankActivityResult
+{
+ required uint32 time = 1;
+ repeated OpenSrvRankPlayerInfo players = 2;
+}

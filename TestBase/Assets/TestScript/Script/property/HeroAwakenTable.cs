@@ -1,0 +1,35 @@
+public class HeroAwakenTable
+{
+	 public int id;
+	 public int code;
+	 public int scala;
+	 public int nextScalaLvLmt;
+	 public int slot;
+	 public int prop1;
+	 public int prop2;
+	 public int prop3;
+	 public int prop4;
+	 public int needType1;
+	 public int needVal1;
+	 public int needNum1;
+	 public int needType2;
+	 public int needVal2;
+	 public int needNum2;
+	 public int needSilver;
+	 public int talentId;
+	 public int showTalentId;
+	 public int addAttrType1;
+	 public int addAttrVal1;
+	 public int addAttrType2;
+	 public int addAttrVal2;
+	 public int addAttrType3;
+	 public int addAttrVal3;
+	 public int addAttrType4;
+	 public int addAttrVal4;
+	 public int nextId;
+	 public int returnGodSoul;
+	 public int returnSilver;
+	 public string title;
+	 public string content;
+	 public int burst;
+}

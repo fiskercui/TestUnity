@@ -1,0 +1,17 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message CardProp
+{
+ required uint32 id = 1;
+ required uint32 addattack = 10;
+ required uint32 adddefphy = 11;
+ required uint32 adddefmag = 12;
+ required U64Type uuid = 2;
+ required uint32 exp = 3;
+ required uint32 color = 4;
+ required uint32 zizhi = 5;
+ required uint32 tupo = 6;
+ required uint32 tianming = 7;
+ required uint32 xingji = 8;
+ required uint32 addhp = 9;
+}

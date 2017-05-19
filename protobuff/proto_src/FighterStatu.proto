@@ -1,0 +1,23 @@
+option optimize_for = LITE_RUNTIME;
+import "I64Type.proto";
+import "U64Type.proto";
+message FighterStatu
+{
+ required uint32 position = 1;
+ required uint32 state = 10;
+ required uint32 attacked = 11;
+ repeated int32 buffAnger = 12;
+ optional I64Type reboundHp = 13;
+ optional uint32 roleid = 14;
+ optional uint32 roletype = 15;
+ optional uint32 rolefashion = 16;
+ repeated uint32 buffNoEffect = 17;
+ required U64Type hp = 2;
+ required U64Type hptotal = 3;
+ required uint32 anger = 4;
+ required uint32 skillAnger = 5;
+ repeated uint32 buffs = 6;
+ required I64Type skillHp = 7;
+ repeated I64Type buffHp = 8;
+ repeated uint32 buffDelete = 9;
+}

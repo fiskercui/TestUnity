@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message ZhaocaimaoTaskRewardRequest
+{
+ required uint32 task_id = 1;
+ optional uint32 exchange_cnt = 2;
+}

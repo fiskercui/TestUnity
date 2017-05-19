@@ -1,0 +1,16 @@
+option optimize_for = LITE_RUNTIME;
+import "U64Type.proto";
+message CSPointsRacePrepareFightAnswer
+{
+ required uint32 result = 1;
+ repeated uint32 card_lv = 10;
+ optional uint32 rank = 11;
+ required uint32 points = 2;
+ required uint32 level = 3;
+ required uint32 server_id = 4;
+ required string server_name = 5;
+ required U64Type player_id = 6;
+ required string player_name = 7;
+ required uint32 fashion_id = 8;
+ repeated uint32 card_id = 9;
+}
