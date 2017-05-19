@@ -174,9 +174,6 @@ public class TestBase : MonoBehaviour {
     }
 
 
-
-
-
     private Dictionary<string, TestDelegate> m_DictDelegate = new Dictionary<string, TestDelegate>();
 
     void testJson()

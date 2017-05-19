@@ -127,11 +127,11 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>Assets\Plugins\protobuf-net.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Assets\Plugins\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets\Plugins\protobuf-net.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -177,6 +177,31 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Newtonsoft.Json.xml" />
+    <None Include="Assets\Shaders\Environment\Alpha-VertexColor-Unlit.shader" />
+    <None Include="Assets\Shaders\Environment\Alpha-VertexLit.shader" />
+    <None Include="Assets\Shaders\Environment\Background.shader" />
+    <None Include="Assets\Shaders\Environment\Opaque-Brightnes.shader" />
+    <None Include="Assets\Shaders\Environment\Opaque-Unlit.shader" />
+    <None Include="Assets\Shaders\Environment\Opaque-VertexColored-Unlit.shader" />
+    <None Include="Assets\Shaders\Environment\Opaque-VertexLit.shader" />
+    <None Include="Assets\Shaders\Environment\Particle-Additive-Color.shader" />
+    <None Include="Assets\Shaders\Environment\Particle-Additive.shader" />
+    <None Include="Assets\Shaders\Environment\Particle-Alpha-Color.shader" />
+    <None Include="Assets\Shaders\Environment\Particle-Alpha.shader" />
+    <None Include="Assets\Shaders\Environment\Toony_Gooch_RimOutlineHard.shader" />
+    <None Include="Assets\Shaders\MirrorReflection\MirrorReflection.shader" />
+    <None Include="Assets\Shaders\UI\Additive-Color.shader" />
+    <None Include="Assets\Shaders\UI\Additive-Ztest-Always.shader" />
+    <None Include="Assets\Shaders\UI\Additive.shader" />
+    <None Include="Assets\Shaders\UI\Alpha-Brightnes.shader" />
+    <None Include="Assets\Shaders\UI\Alpha-Color.shader" />
+    <None Include="Assets\Shaders\UI\Alpha-Ztest-Always.shader" />
+    <None Include="Assets\Shaders\UI\Alpha.shader" />
+    <None Include="Assets\Shaders\UI\Opaque.shader" />
+    <None Include="Assets\Shaders\UIOpaque.shader" />
+    <None Include="Assets\Shaders\UV2.shader" />
+    <None Include="Assets\Shaders\VrtClrNormal.shader" />
+    <None Include="Assets\Shaders\VrtClrPerfect.shader" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
