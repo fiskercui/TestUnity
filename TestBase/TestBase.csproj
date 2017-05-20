@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.6.0f3</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -27,7 +29,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -37,7 +39,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
@@ -88,6 +90,9 @@
     <Reference Include="protobuf-net">
       <HintPath>Assets\Plugins\protobuf-net.dll</HintPath>
     </Reference>
+    <Reference Include="ClientCommon">
+      <HintPath>Assets\Plugins\ClientCommon.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="TestBase.Plugins.csproj">
@@ -99,42 +104,47 @@
     <Compile Include="Assets\Scripts\Plugins\KodGames\Graphics\FXController.cs" />
     <Compile Include="Assets\Scripts\Plugins\KodGames\Utility\MonoBehaviour.cs" />
     <Compile Include="Assets\Shaders\MirrorReflection\MirrorReflection.cs" />
-    <Compile Include="Assets\TestMove\Script\ChangeMethodBehavior.cs" />
-    <Compile Include="Assets\TestMove\Script\RotateSystem.cs" />
-    <Compile Include="Assets\TestMove\Script\TestRotateScript.cs" />
     <Compile Include="Assets\TestScript\Script\AssetBundleLoadOperation.cs" />
     <Compile Include="Assets\TestScript\Script\AssetBundleManager.cs" />
-    <Compile Include="Assets\TestScript\Script\BmFont\BMFont.cs" />
-    <Compile Include="Assets\TestScript\Script\BmFont\BMFontReader.cs" />
-    <Compile Include="Assets\TestScript\Script\BmFont\BMGlyph.cs" />
-    <Compile Include="Assets\TestScript\Script\BmFont\BMSymbol.cs" />
-    <Compile Include="Assets\TestScript\Script\BmFont\BetterList.cs" />
-    <Compile Include="Assets\TestScript\Script\BmFont\ByteReader.cs" />
-    <Compile Include="Assets\TestScript\Script\BmFont\MyFont.cs" />
-    <Compile Include="Assets\TestScript\Script\BmFont\UIAtlas.cs" />
-    <Compile Include="Assets\TestScript\Script\BmFont\UISpriteData.cs" />
     <Compile Include="Assets\TestScript\Script\CombineMeshes.cs" />
-    <Compile Include="Assets\TestScript\Script\Navmesh\NavmeshController.cs" />
     <Compile Include="Assets\TestScript\Script\Test.cs" />
     <Compile Include="Assets\TestScript\Script\TestAsset.cs" />
     <Compile Include="Assets\TestScript\Script\TestAssetBundle.cs" />
     <Compile Include="Assets\TestScript\Script\TestCoroutine.cs" />
     <Compile Include="Assets\TestScript\Script\TestMesh.cs" />
+    <Compile Include="Assets\TestScript\Script\avatar\Avatar.cs" />
+    <Compile Include="Assets\TestScript\Script\avatar\AvatarAction.cs" />
+    <Compile Include="Assets\TestScript\Script\avatar\AvatarAnimation.cs" />
+    <Compile Include="Assets\TestScript\Script\avatar\AvatarComponent.cs" />
+    <Compile Include="Assets\TestScript\Script\avatar\AvatarFx.cs" />
+    <Compile Include="Assets\TestScript\Script\avatar\AvatarScroll.cs" />
     <Compile Include="Assets\TestScript\Script\base\AssetBundleLoader.cs" />
     <Compile Include="Assets\TestScript\Script\base\EventTriggerListener.cs" />
     <Compile Include="Assets\TestScript\Script\base\GameDefines.cs" />
     <Compile Include="Assets\TestScript\Script\base\MathUtil.cs" />
     <Compile Include="Assets\TestScript\Script\base\MeshText.cs" />
     <Compile Include="Assets\TestScript\Script\base\ObjectUtility.cs" />
+    <Compile Include="Assets\TestScript\Script\base\PathUtility.cs" />
     <Compile Include="Assets\TestScript\Script\base\ResourceCache.cs" />
     <Compile Include="Assets\TestScript\Script\base\ResourceManager.cs" />
     <Compile Include="Assets\TestScript\Script\base\ResourcesWrapper.cs" />
     <Compile Include="Assets\TestScript\Script\base\SysModule.cs" />
     <Compile Include="Assets\TestScript\Script\base\SysModuleManager.cs" />
+    <Compile Include="Assets\TestScript\Script\bmfont\BMFont.cs" />
+    <Compile Include="Assets\TestScript\Script\bmfont\BMFontReader.cs" />
+    <Compile Include="Assets\TestScript\Script\bmfont\BMGlyph.cs" />
+    <Compile Include="Assets\TestScript\Script\bmfont\BMSymbol.cs" />
+    <Compile Include="Assets\TestScript\Script\bmfont\BetterList.cs" />
+    <Compile Include="Assets\TestScript\Script\bmfont\ByteReader.cs" />
+    <Compile Include="Assets\TestScript\Script\bmfont\MyFont.cs" />
+    <Compile Include="Assets\TestScript\Script\bmfont\UIAtlas.cs" />
+    <Compile Include="Assets\TestScript\Script\bmfont\UISpriteData.cs" />
     <Compile Include="Assets\TestScript\Script\common\FileHelper.cs" />
     <Compile Include="Assets\TestScript\Script\common\ProtoBufHelper.cs" />
     <Compile Include="Assets\TestScript\Script\common\StringHelper.cs" />
+    <Compile Include="Assets\TestScript\Script\config\ConfigDatabase1.cs" />
     <Compile Include="Assets\TestScript\Script\manager\ConfigMgr.cs" />
+    <Compile Include="Assets\TestScript\Script\navmesh\NavmeshController.cs" />
     <Compile Include="Assets\TestScript\Script\property\AccessPathTableProperty.cs" />
     <Compile Include="Assets\TestScript\Script\property\ActivityConfig.cs" />
     <Compile Include="Assets\TestScript\Script\property\ActivityConfigProperty.cs" />
@@ -849,8 +859,11 @@
     <Compile Include="Assets\TestScript\Script\protocs\ZhuZhenItem.cs" />
     <Compile Include="Assets\TestScript\Script\protocs\ZhuZhenLst.cs" />
     <Compile Include="Assets\TestScript\Script\views\BattleLayer.cs" />
+    <Compile Include="Assets\TestScript\TestBase\ChangeMethodBehavior.cs" />
+    <Compile Include="Assets\TestScript\TestBase\RotateSystem.cs" />
     <Compile Include="Assets\TestScript\TestBase\TestBase.cs" />
     <Compile Include="Assets\TestScript\TestBase\TestJson.cs" />
+    <Compile Include="Assets\TestScript\TestBase\TestRotateScript.cs" />
     <Compile Include="Assets\TestSpine\Examples\Scripts\BasicPlatformerController.cs" />
     <Compile Include="Assets\TestSpine\Examples\Scripts\Chimera.cs" />
     <Compile Include="Assets\TestSpine\Examples\Scripts\ConstrainedCamera.cs" />

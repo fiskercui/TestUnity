@@ -4,6 +4,7 @@ using System.IO;
 
 public class ResourceManager:  SysModule
 {
+    public static ResourceManager Instance { get { return SysModuleManager.Instance.GetSysModule<ResourceManager>(); } }
     public string GetLocalFileDirectory()
     {
 #if UNITY_EDITOR
