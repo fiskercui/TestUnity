@@ -1,5 +1,5 @@
 TestBase/Temp/
 TestBase/Library/
 TestBase/Library/metadata/
-*.meta
+*.pidb.meta
 *.suo
