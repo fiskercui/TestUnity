@@ -88,9 +88,6 @@
     <Reference Include="protobuf-net">
       <HintPath>Assets\Plugins\protobuf-net.dll</HintPath>
     </Reference>
-    <Reference Include="ClientCommon">
-      <HintPath>Assets\Plugins\ClientCommon.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
@@ -140,6 +137,84 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Newtonsoft.Json.xml" />
+    <None Include="Assets\Resources\GameConfig\ActionConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\ActivityConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\AllPlayerGiftCounterConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\AnimationConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\AppleGoodConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\ArenaConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\AssetDescConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\AvatarAssetConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\AvatarConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\BeastConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\CampaignConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\ChangeNameConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\ChatAndMarqueeConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\ClientManifest.xml" />
+    <None Include="Assets\Resources\GameConfig\CycleActivityConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\DailySignInConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\DanConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\DialogueConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\DinerConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\DomineerConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\EquipmentConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\ExchangeConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\FirstGetConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\FirstThreeDayConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\FriendCampaignConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\FriendConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\GameConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\GoodConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\GoodStatusConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\GuideConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\GuildConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\GuildExchangeShopConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\GuildPrivateShopConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\GuildPublicShopConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\GuildStageConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\IllusionConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\IllustrationConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\InitPlayerConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\InviteCodeConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\ItemConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\LevelConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\LevelRewardConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\LocalNotificationConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\MarvellousAdventureConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\MelaleucaFloorConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\MeridianConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\MonthCardConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\MyCardConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\MysteryShopConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\MysteryerConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\NpcConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\OperationConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\PartnerConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\PositionConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\PowerConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\PveConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\QinInfoConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\QuestConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\QuestionConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\RewardConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\RobotConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\SceneConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\SevenElevenGiftConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\SkillConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\SpecialGoodsConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\StartServerRewardConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\SuiteConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\TaskConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\TavernConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\Text.xml" />
+    <None Include="Assets\Resources\GameConfig\TextUI.xml" />
+    <None Include="Assets\Resources\GameConfig\TreasureBowlConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\TutorialConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\VipConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\WolfSmokeConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\WorldBossConfig.xml" />
+    <None Include="Assets\Resources\GameConfig\ZentiaConfig.xml" />
+    <None Include="Assets\Scripts\Mono.Xml" />
     <None Include="Assets\Shaders\Environment\Alpha-VertexColor-Unlit.shader" />
     <None Include="Assets\Shaders\Environment\Alpha-VertexLit.shader" />
     <None Include="Assets\Shaders\Environment\Background.shader" />

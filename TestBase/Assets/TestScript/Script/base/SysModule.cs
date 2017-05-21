@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using UnityEngine;
-using System.Collections;
+
 
 public abstract class SysModule : MonoBehaviour
 {

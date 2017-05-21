@@ -176,15 +176,6 @@ public class TestBase : MonoBehaviour {
 
     private Dictionary<string, TestDelegate> m_DictDelegate = new Dictionary<string, TestDelegate>();
 
-    void testJson()
-    {
-        TextAsset bindata = Resources.Load("configjson/AccessPathTable") as TextAsset;
-        ConfigMgr.getInstance().initConfig<AccessPathTableProperty, AccessPathTableObject>("AccessPathTable", "AccessPathTable", "id");
-        AccessPathTableObject t = ConfigMgr.getInstance().getObjectConfig<AccessPathTableObject>("2");
-
-        string s = "";
-        GameObject text = GameObject.Find("Canvas/Text");
-    }
     // Use this for initialization
     void Start () {
 

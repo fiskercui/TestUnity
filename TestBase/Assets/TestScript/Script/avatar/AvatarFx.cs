@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using ClientServerCommon;
 
 /// <summary>
 /// Avatar effect class.
@@ -51,9 +52,9 @@ public class AvatarFx
 	// Play Pfx.
 	public void PlayPfx(FXController fx, int destroyMode, int userData, string modelBone, string bone, bool boneFollow, Vector3 offset, Vector3 rotate, bool useSpecificPosition, Vector3 specificPosition)
 	{
-		// Set Render layer
+        // Set Render layer
 
-		/**
+        /**
 		 * Bug 记录。
 		 * 
 		 * 对于魔化卫庄的组合技，这个技能在主Action中有目标选择，但是每一个伤害事件都有自己的目标选择，最终可能有一种情况，即所有的EventTargetRecord中的目标均不包含Action选择的目标
@@ -62,15 +63,17 @@ public class AvatarFx
 		 * 
 		 * 修改逻辑，如果正处于屏幕遮罩中，那么所有的特效都有应该具有SceneMaskLayer
 		 */
-		BattleScene bs = BattleScene.GetBattleScene();
+        //BattleScene bs = BattleScene.GetBattleScene();
 
-		int Layer = 0;
-		if (bs != null && bs.IsEnableSceneMask)
-			Layer = GameDefines.SceneMaskLayer;
-		else Layer = avatar.gameObject.layer;
+        //int Layer = 0;
+        //if (bs != null && bs.IsEnableSceneMask)
+        //	Layer = GameDefines.SceneMaskLayer;
+        //else Layer = avatar.gameObject.layer;
 
-		// Set Render layer
-		fx.Root.gameObject.layer = Layer;
+        int Layer = avatar.gameObject.layer;
+
+        // Set Render layer
+        fx.Root.gameObject.layer = Layer;
 		foreach (var subObj in fx.Root.GetComponentsInChildren<Transform>())
 			subObj.gameObject.layer = Layer;
 
