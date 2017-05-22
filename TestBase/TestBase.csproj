@@ -91,9 +91,6 @@
     <Reference Include="bcParser.NET">
       <HintPath>Assets\TestScript\Script\ClientServerCommon\bcParser.NET.dll</HintPath>
     </Reference>
-    <Reference Include="bcParser.NET">
-      <HintPath>Assets\TestScript\Script\ClientServerCommon\bcParser.NET.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="TestBase.Plugins.csproj">
@@ -104,6 +101,7 @@
   <ItemGroup>
     <Compile Include="Assets\LocalData\ItemInfoUtility.cs" />
     <Compile Include="Assets\LocalData\LoginInfo.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\Avatar.cs" />
     <Compile Include="Assets\Scripts\Mono.Xml\MiniParser.cs" />
     <Compile Include="Assets\Scripts\Mono.Xml\SecurityParser.cs" />
     <Compile Include="Assets\Scripts\Mono.Xml\SmallXmlParser.cs" />
@@ -112,7 +110,6 @@
     <Compile Include="Assets\Shaders\MirrorReflection\MirrorReflection.cs" />
     <Compile Include="Assets\TestScript\Script\AssetBundleLoadOperation.cs" />
     <Compile Include="Assets\TestScript\Script\AssetBundleManager.cs" />
-    <Compile Include="Assets\TestScript\Script\Avatar\Avatar.cs" />
     <Compile Include="Assets\TestScript\Script\Avatar\AvatarAnimation.cs" />
     <Compile Include="Assets\TestScript\Script\Avatar\AvatarComponent.cs" />
     <Compile Include="Assets\TestScript\Script\Avatar\AvatarFx.cs" />
