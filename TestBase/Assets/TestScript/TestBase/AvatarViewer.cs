@@ -13,26 +13,30 @@ public class AvatarViewer : MonoBehaviour
 			fileName = "";
 			fileFormat = Configuration._FileFormat.Xml;
 
-			if (configType == typeof(AvatarConfig))
-			{
-				return new FileLoaderFromTextAsset(AvatarViewer.Inst.avatarCfgFile);
-			}
-			else if (configType == typeof(AssetDescConfig))
-			{
-				return new FileLoaderFromTextAsset(AvatarViewer.Inst.assetdescCfgFile);
+            if (configType == typeof(AvatarConfig))
+            {
+                return new FileLoaderFromTextAsset(AvatarViewer.Inst.avatarCfgFile);
+            }
+            else if (configType == typeof(AssetDescConfig))
+            {
+                return new FileLoaderFromTextAsset(AvatarViewer.Inst.assetdescCfgFile);
 
-			}
-			else if (configType == typeof(AnimationConfig))
-			{
-				return new FileLoaderFromTextAsset(AvatarViewer.Inst.animationCfgFile);
+            }
+            else if (configType == typeof(AnimationConfig))
+            {
+                return new FileLoaderFromTextAsset(AvatarViewer.Inst.animationCfgFile);
 
-			}
-			else if (configType == typeof(AvatarAssetConfig))
-			{
-				return new FileLoaderFromTextAsset(AvatarViewer.Inst.avatarAssetCfgFile);
-			}
-			else
-				return null;
+            }
+            else if (configType == typeof(AvatarAssetConfig))
+            {
+                return new FileLoaderFromTextAsset(AvatarViewer.Inst.avatarAssetCfgFile);
+            }
+            else if (configType == typeof(EquipmentConfig))
+            {
+                return new FileLoaderFromTextAsset(AvatarViewer.Inst.equipCfgFile);
+            }
+            else
+                return null;
 		}
 	}
 
@@ -95,6 +99,7 @@ public class AvatarViewer : MonoBehaviour
 	public TextAsset assetdescCfgFile;
 	public TextAsset animationCfgFile;
 	public TextAsset avatarAssetCfgFile;
+    public TextAsset equipCfgFile;
 
 	public Vector3 orbitSensitive = new Vector3(0, 0, 0.3f);
 
@@ -161,28 +166,34 @@ public class AvatarViewer : MonoBehaviour
 
 	private void InitializeEquipmentNameStrs()
 	{
-		//int weaponCount = 0;
-		//for (int i = 0; i < ConfigDatabase.DefaultCfg.EquipmentConfig.equipments.Count; i++)
-		//{
-		//    EquipmentConfig.Equipment equipmentCfg = ConfigDatabase.DefaultCfg.EquipmentConfig.equipments[i];
-		//    if (equipmentCfg.type == EquipmentConfig._Type.Weapon)
-		//    {
-		//        weaponCount++;
-		//    }
-		//}
-		//equipmentStrs = new string[weaponCount];
-		//equipmentIds = new int[weaponCount];
-		//for (int i = 0; i < ConfigDatabase.DefaultCfg.EquipmentConfig.equipments.Count; i++)
-		//{
-		//    EquipmentConfig.Equipment equipmentCfg = ConfigDatabase.DefaultCfg.EquipmentConfig.equipments[i];
-		//    if (equipmentCfg.type == EquipmentConfig._Type.Weapon)
-		//    {
-		//        string name = ItemInfoUtility.GetAssetName(equipmentCfg.id);
-		//        equipmentIds[i] = equipmentCfg.id;
-		//        equipmentStrs[i] = name;
-		//    }
-		//}
-	}
+        ConfigDatabase.DelayLoadFileDelegate delayLoadFileDel = ConfigDelayLoader.DelayLoadConfig;
+        string str = "";
+        int fileFormat = 0;
+        IFileLoader fileLoader = delayLoadFileDel(typeof(EquipmentConfig), out str, out fileFormat);
+        EquipmentConfig config1 = ConfigDatabase.LoadConfig<EquipmentConfig>(ConfigDatabase.DefaultCfg, fileLoader, fileFormat, str);
+        config1.GetType();
+        //int weaponCount = 0;
+        //for (int i = 0; i < ConfigDatabase.DefaultCfg.EquipmentConfig.equipments.Count; i++)
+        //{
+        //    EquipmentConfig.Equipment equipmentCfg = ConfigDatabase.DefaultCfg.EquipmentConfig.equipments[i];
+        //    if (equipmentCfg.type == EquipmentConfig._Type.Weapon)
+        //    {
+        //        weaponCount++;
+        //    }
+        //}
+        //equipmentStrs = new string[weaponCount];
+        //equipmentIds = new int[weaponCount];
+        //for (int i = 0; i < ConfigDatabase.DefaultCfg.EquipmentConfig.equipments.Count; i++)
+        //{
+        //    EquipmentConfig.Equipment equipmentCfg = ConfigDatabase.DefaultCfg.EquipmentConfig.equipments[i];
+        //    if (equipmentCfg.type == EquipmentConfig._Type.Weapon)
+        //    {
+        //        string name = ItemInfoUtility.GetAssetName(equipmentCfg.id);
+        //        equipmentIds[i] = equipmentCfg.id;
+        //        equipmentStrs[i] = name;
+        //    }
+        //}
+    }
 
 	private void InitializeParticleNameStrs()
 	{
