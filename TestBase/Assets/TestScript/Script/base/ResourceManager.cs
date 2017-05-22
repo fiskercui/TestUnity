@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
+using ClientServerCommon;
 
 public class ResourceManager:  SysModule
 {
@@ -32,7 +33,7 @@ public class ResourceManager:  SysModule
 #endif
 
         // Convert to lowercase name
-        //assetName = KodGames.PathUtility.UnifyPath(assetName);
+        //assetName = WeihuaGames.PathUtility.UnifyPath(assetName);
 
         // Check if Need load from cache
         //        if (ConfigDatabase.DefaultCfg.ClientManifest != null)
@@ -89,6 +90,32 @@ public class ResourceManager:  SysModule
 
         // Load from resources folder
         return ResourcesWrapper.Load(assetName);
+    }
+
+
+    public WWW LoadStreamingAudio(string audioName)
+    {
+        audioName = PathUtility.UnifyPath(audioName + GameDefines.audioFormat, false);
+
+        if (ConfigDatabase.DefaultCfg.ClientManifest != null)
+        {
+            ClientManifest.FileInfo fileInfo = ConfigDatabase.DefaultCfg.ClientManifest.GetFileByName(audioName.ToLower());
+            if (fileInfo != null)
+            {
+                string streamingFilePath = GetLocalFileUrl(fileInfo.fileName);
+#if ENABLE_RESOURCE_MANAGER_LOG
+			Debug.Log("[ResourceManager] Load asset from streaming asset : " + streamingFilePath);
+#endif
+                return new WWW(streamingFilePath);
+            }
+        }
+
+        var filePath = System.IO.Path.Combine(Application.streamingAssetsPath, audioName);
+
+        if (filePath.Contains("://"))
+            return new WWW(filePath);
+        else
+            return new WWW("file://" + filePath);
     }
     public Object LoadAsset(string assetName)
     {

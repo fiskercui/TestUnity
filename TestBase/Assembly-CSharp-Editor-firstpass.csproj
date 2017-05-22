@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{378C27A3-A56A-215B-CB08-B45C4D4F260B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>I:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>I:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <None Include="Assets\Resources\GameConfig\IllustrationConfig.xml" />
+     <None Include="Assets\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
+     <None Include="Assets\Resources\GameConfig\GuildPublicShopConfig.xml" />
+     <None Include="Assets\TestSpine\Examples\Spine\Eyes\eyes.atlas.txt" />
+     <None Include="Assets\spine-unity\Shaders\HiddenPass.shader" />
+     <None Include="Assets\Resources\GameConfig\CampaignConfig.xml" />
+     <None Include="Assets\Shaders\Environment\Particle-Alpha-Color.shader" />
+     <None Include="Assets\Resources\GameConfig\GoodConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\PveConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\ClientManifest.xml" />
+     <None Include="Assets\Resources\GameConfig\TreasureBowlConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\SpecialGoodsConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\FirstGetConfig.xml" />
+     <None Include="Assets\Shaders\Environment\Particle-Additive-Color.shader" />
+     <None Include="Assets\Resources\GameConfig\StartServerRewardConfig.xml" />
+     <None Include="Assets\TestSpine\Examples\Spine\Gauge\Gauge.atlas.txt" />
+     <None Include="Assets\Resources\GameConfig\AvatarConfig.xml" />
+     <None Include="Assets\Shaders\Environment\Alpha-VertexColor-Unlit.shader" />
+     <None Include="Assets\Resources\GameConfig\PartnerConfig.xml" />
+     <None Include="Assets\TestSpine\Examples\Spine\FootSoldier\FS_White.atlas.txt" />
+     <None Include="Assets\Shaders\UI\Additive.shader" />
+     <None Include="Assets\Shaders\Environment\Toony_Gooch_RimOutlineHard.shader" />
+     <None Include="Assets\Resources\GameConfig\OperationConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\ZentiaConfig.xml" />
+     <None Include="Assets\TestSpine\Examples\Spine\Hero\hero-mesh.atlas.txt" />
+     <None Include="Assets\TestSpine\Examples\Spine\Dragon\license.txt" />
+     <None Include="Assets\Resources\GameConfig\RewardConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\GuildStageConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\ArenaConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\WolfSmokeConfig.xml" />
+     <None Include="Assets\TestSpine\Examples\Spine\Hero\license.txt" />
+     <None Include="Assets\Resources\GameConfig\QuestConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\Text.xml" />
+     <None Include="Assets\Resources\GameConfig\TaskConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\QuestionConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\DialogueConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\DailySignInConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\SkillConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\ExchangeConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\SuiteConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\InviteCodeConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\NpcConfig.xml" />
+     <None Include="Assets\TestSpine\Examples\Spine\Raptor\raptor.atlas.txt" />
+     <None Include="Assets\Shaders\VrtClrNormal.shader" />
+     <None Include="Assets\TestSpine\Examples\Spine\Spineboy\spineboy.atlas.txt" />
+     <None Include="Assets\Resources\GameConfig\AssetDescConfig.xml" />
+     <None Include="Assets\Shaders\Environment\Alpha-VertexLit.shader" />
+     <None Include="Assets\Resources\GameConfig\AllPlayerGiftCounterConfig.xml" />
+     <None Include="Assets\TestSpine\Examples\Spine\FootSoldier\license.txt" />
+     <None Include="Assets\Resources\GameConfig\TavernConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\LevelConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\AnimationConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\AppleGoodConfig.xml" />
+     <None Include="Assets\Shaders\MirrorReflection\MirrorReflection.shader" />
+     <None Include="Assets\Resources\GameConfig\MeridianConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\GameConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\TutorialConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\ItemConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\SevenElevenGiftConfig.xml" />
+     <None Include="Assets\TestSpine\Examples\Spine\Raggedy Spineboy\Raggedy Spineboy.atlas.txt" />
+     <None Include="Assets\Shaders\UI\Alpha-Color.shader" />
+     <None Include="Assets\Resources\GameConfig\InitPlayerConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\VipConfig.xml" />
+     <None Include="Assets\Shaders\Environment\Opaque-VertexLit.shader" />
+     <None Include="Assets\TestScript\Fonts\Damage.fnt" />
+     <None Include="Assets\Resources\GameConfig\BeastConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\GuildConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\WorldBossConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\ActivityConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\GuildExchangeShopConfig.xml" />
+     <None Include="Assets\Shaders\Environment\Opaque-VertexColored-Unlit.shader" />
+     <None Include="Assets\Resources\GameConfig\MarvellousAdventureConfig.xml" />
+     <None Include="Assets\spine-unity\Shaders\Bones.shader" />
+     <None Include="Assets\Resources\GameConfig\SceneConfig.xml" />
+     <None Include="Assets\Shaders\UV2.shader" />
+     <None Include="Assets\Shaders\UI\Alpha-Ztest-Always.shader" />
+     <None Include="Assets\Shaders\UI\Alpha.shader" />
+     <None Include="Assets\Resources\GameConfig\MysteryShopConfig.xml" />
+     <None Include="Assets\Shaders\Environment\Opaque-Brightnes.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\spine-unity\Ghost\Shaders\SkeletonGhost.shader" />
+     <None Include="Assets\Resources\GameConfig\DomineerConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\FriendConfig.xml" />
+     <None Include="Assets\Shaders\VrtClrPerfect.shader" />
+     <None Include="Assets\Resources\GameConfig\MyCardConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\IllusionConfig.xml" />
+     <None Include="Assets\Shaders\UI\Additive-Color.shader" />
+     <None Include="Assets\Resources\GameConfig\PositionConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\DinerConfig.xml" />
+     <None Include="Assets\Shaders\UI\Alpha-Brightnes.shader" />
+     <None Include="Assets\Resources\GameConfig\GuildPrivateShopConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\CycleActivityConfig.xml" />
+     <None Include="Assets\TestSpine\Examples\Spine\Dragon\dragon.atlas.txt" />
+     <None Include="Assets\Resources\GameConfig\AvatarAssetConfig.xml" />
+     <None Include="Assets\Shaders\UIOpaque.shader" />
+     <None Include="Assets\Resources\GameConfig\FriendCampaignConfig.xml" />
+     <None Include="Assets\Shaders\Environment\Opaque-Unlit.shader" />
+     <None Include="Assets\Resources\GameConfig\GuideConfig.xml" />
+     <None Include="Assets\spine-unity\Shaders\Skeleton.shader" />
+     <None Include="Assets\Resources\GameConfig\LevelRewardConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\ChatAndMarqueeConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\EquipmentConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\DanConfig.xml" />
+     <None Include="Assets\TestSpine\Examples\Spine\Goblins\goblins-mesh.atlas.txt" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Resources\GameConfig\FirstThreeDayConfig.xml" />
+     <None Include="Assets\Plugins\Newtonsoft.Json.xml" />
+     <None Include="Assets\Resources\GameConfig\MelaleucaFloorConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\MysteryerConfig.xml" />
+     <None Include="Assets\Shaders\Environment\Background.shader" />
+     <None Include="Assets\Shaders\Environment\Particle-Alpha.shader" />
+     <None Include="Assets\Shaders\UI\Opaque.shader" />
+     <None Include="Assets\Resources\GameConfig\ChangeNameConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\TextUI.xml" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Resources\GameConfig\QinInfoConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\ActionConfig.xml" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Shaders\Environment\Particle-Additive.shader" />
+     <None Include="Assets\Resources\GameConfig\RobotConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\GoodStatusConfig.xml" />
+     <None Include="Assets\Resources\GameConfig\PowerConfig.xml" />
+     <None Include="Assets\spine-unity\Shaders\SkeletonLit.shader" />
+     <None Include="Assets\Resources\GameConfig\LocalNotificationConfig.xml" />
+     <None Include="Assets\Shaders\UI\Additive-Ztest-Always.shader" />
+     <None Include="Assets\Resources\GameConfig\MonthCardConfig.xml" />
+     <None Include="Assets\TestSpine\Examples\Spine\FootSoldier\Equipment\Equipment.atlas.txt" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>I:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>I:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>I:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>I:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>I:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>I:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/2015/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>H:/git/TestUnity/TestBase/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="protobuf-net">
+ <HintPath>H:/git/TestUnity/TestBase/Assets/Plugins/protobuf-net.dll</HintPath>
+ </Reference>
+ <Reference Include="bcParser.NET">
+ <HintPath>H:/git/TestUnity/TestBase/Assets/TestScript/Script/ClientServerCommon/bcParser.NET.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>I:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>I:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{80DAC555-D179-5953-5D8A-4EF294FC5E1D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -262,6 +262,55 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+--- !u!1 &1594440953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1594440954}
+  - component: {fileID: 1594440955}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1594440954
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1594440953}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0497587, y: -0.9736356, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1594440955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1594440953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f949254e34ed34a43bbcc373f68dc614, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  avatarCfgFile: {fileID: 4900000, guid: 8e9c19724747975458d906b53efb8310, type: 3}
+  assetdescCfgFile: {fileID: 4900000, guid: 96d33386e88419241856ad18d84739d7, type: 3}
+  animationCfgFile: {fileID: 4900000, guid: 45cbcd274381ec84ba1076976fc2bcea, type: 3}
+  avatarAssetCfgFile: {fileID: 4900000, guid: 3b940b3b580df8b4cabbcbd73c92021c, type: 3}
+  orbitSensitive: {x: 1, y: 1, z: 0.3}
+  orbitDistance: 4
+  orbitCamera: {fileID: 1271943422}
+  angleV: 17.7
+  angleHDefault: 90
 --- !u!1 &2018056632
 GameObject:
   m_ObjectHideFlags: 0

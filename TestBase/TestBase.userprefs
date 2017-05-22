@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TestScript\Script\ClientServerCommon\AvatarConfig.cs">
+    <Files>
+      <File FileName="Assets\TestScript\Script\AssetBundleManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\TestScript\Script\Platform\Platform.cs" Line="40" Column="33" />
+      <File FileName="Assets\TestScript\Script\ClientServerCommon\AvatarConfig.cs" Line="195" Column="59" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="H:\git\TestUnity\TestBase\Assets\TestScript\Script\ClientServerCommon\AvatarConfig.cs" line="269" column="1" />
+      <Breakpoint file="H:\git\TestUnity\TestBase\Assets\TestScript\Script\ClientServerCommon\AvatarConfig.cs" line="311" column="1" />
+      <Breakpoint file="H:\git\TestUnity\TestBase\Assets\TestScript\Script\ClientServerCommon\AvatarConfig.cs" line="400" column="1" />
+      <Breakpoint file="H:\git\TestUnity\TestBase\Assets\TestScript\Script\ClientServerCommon\AvatarConfig.cs" line="186" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

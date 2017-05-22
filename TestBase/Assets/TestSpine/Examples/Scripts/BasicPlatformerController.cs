@@ -8,8 +8,8 @@
 using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(CharacterController))]
-public class BasicPlatformerController : MonoBehaviour {
+[RequireComponent(typeof(UnityEngine.CharacterController))]
+public class BasicPlatformerController : UnityEngine.MonoBehaviour {
 
 #if UNITY_4_5
     [Header("Controls")]
@@ -63,7 +63,7 @@ public class BasicPlatformerController : MonoBehaviour {
 	public AudioSource hardfallAudioSource;
 	public AudioSource footstepAudioSource;
 	public string footstepEventName = "Footstep";
-	CharacterController controller;
+	UnityEngine.CharacterController controller;
 	Vector2 velocity = Vector2.zero;
 	Vector2 lastVelocity = Vector2.zero;
 	bool lastGrounded = false;
@@ -73,7 +73,7 @@ public class BasicPlatformerController : MonoBehaviour {
 	Quaternion flippedRotation = Quaternion.Euler(0, 180, 0);
 
 	void Awake () {
-		controller = GetComponent<CharacterController>();
+		controller = GetComponent<UnityEngine.CharacterController>();
 	}
 
 	void Start () {

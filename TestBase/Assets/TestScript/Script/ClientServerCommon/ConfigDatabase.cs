@@ -173,7 +173,8 @@
             switch (fileFormat)
             {
                 case 1:
-                    Activator.CreateInstance<T>().LoadFromXml(fileLoader.LoadAsXML(filePath));
+                    local = Activator.CreateInstance<T>();
+                    local.LoadFromXml(fileLoader.LoadAsXML(filePath));
                     break;
 
                 case 2:
