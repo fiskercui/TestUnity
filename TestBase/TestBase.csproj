@@ -491,6 +491,7 @@
     <Compile Include="Assets\TestScript\Script\GameLogic\CharacterController.cs" />
     <Compile Include="Assets\TestScript\Script\GameLogic\DataCompare.cs" />
     <Compile Include="Assets\TestScript\Script\GameLogic\PackageFilterData.cs" />
+    <Compile Include="Assets\TestScript\Script\Graphics\IsRenderByCamera.cs" />
     <Compile Include="Assets\TestScript\Script\Manager\ConfigMgr.cs" />
     <Compile Include="Assets\TestScript\Script\Navmesh\NavmeshController.cs" />
     <Compile Include="Assets\TestScript\Script\Platform\Platform.cs" />
@@ -1872,6 +1873,7 @@
     <Compile Include="Assets\TestScript\Script\protocol\ZentiaServerReward.cs" />
     <Compile Include="Assets\TestScript\Script\protocol\Zone.cs" />
     <Compile Include="Assets\TestScript\TestBase\AvatarViewer.cs" />
+    <Compile Include="Assets\TestScript\TestBase\CameraMoveForward.cs" />
     <Compile Include="Assets\TestScript\TestBase\ChangeMethodBehavior.cs" />
     <Compile Include="Assets\TestScript\TestBase\RotateSystem.cs" />
     <Compile Include="Assets\TestScript\TestBase\TestBase.cs" />
