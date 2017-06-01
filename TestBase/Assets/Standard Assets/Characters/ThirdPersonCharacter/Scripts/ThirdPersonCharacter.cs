@@ -71,9 +71,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			ScaleCapsuleForCrouching(crouch);
 			PreventStandingInLowHeadroom();
 
-			// send input and other state parameters to the animator
-			UpdateAnimator(move);
-		}
+            // send input and other state parameters to the animator
+            UpdateAnimator(move);
+        }
 
 
 		void ScaleCapsuleForCrouching(bool crouch)
@@ -117,9 +117,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 		void UpdateAnimator(Vector3 move)
 		{
-			// update the animator parameters
-			m_Animator.SetFloat("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);
-			m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
+            // update the animator parameters
+            m_Animator.SetFloat("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);
+            m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
 			m_Animator.SetBool("Crouch", m_Crouching);
 			m_Animator.SetBool("OnGround", m_IsGrounded);
 			if (!m_IsGrounded)
@@ -158,6 +158,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			// apply extra gravity from multiplier:
 			Vector3 extraGravityForce = (Physics.gravity * m_GravityMultiplier) - Physics.gravity;
 			m_Rigidbody.AddForce(extraGravityForce);
+            Debug.Log("HandleAirborneMovement x"+extraGravityForce.x +"y:"+ extraGravityForce.y + "z:" + extraGravityForce.z);
 
 			m_GroundCheckDistance = m_Rigidbody.velocity.y < 0 ? m_OrigGroundCheckDistance : 0.01f;
 		}

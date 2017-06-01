@@ -241,8 +241,9 @@ public class AvatarComponent
 	{
 		AvatarAssetConfig avatarAssetCfg = ConfigDatabase.DefaultCfg.AvatarAssetConfig;
 
-		// Create new usedComponent.
-		GameObject newComponent = ResourceManager.Instance.InstantiateAsset<GameObject>(PathUtility.Combine(avatarAssetCfg.assetPath, assetName));
+        string path = PathUtility.Combine(avatarAssetCfg.assetPath, assetName);
+        // Create new usedComponent.
+        GameObject newComponent = ResourceManager.Instance.InstantiateAsset<GameObject>(PathUtility.Combine(avatarAssetCfg.assetPath, assetName));
 		if (newComponent == null)
 		{
 #if ENABLE_AVATAR_COMPONENT_LOG

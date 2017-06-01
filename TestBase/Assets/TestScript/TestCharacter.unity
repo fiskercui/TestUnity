@@ -306,6 +306,7 @@ MonoBehaviour:
   assetdescCfgFile: {fileID: 4900000, guid: 96d33386e88419241856ad18d84739d7, type: 3}
   animationCfgFile: {fileID: 4900000, guid: 45cbcd274381ec84ba1076976fc2bcea, type: 3}
   avatarAssetCfgFile: {fileID: 4900000, guid: 3b940b3b580df8b4cabbcbd73c92021c, type: 3}
+  equipCfgFile: {fileID: 4900000, guid: 0a93d85cf54cfed43bdeb26e60f86295, type: 3}
   orbitSensitive: {x: 1, y: 1, z: 0.3}
   orbitDistance: 4
   orbitCamera: {fileID: 1271943422}
