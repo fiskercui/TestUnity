@@ -1,4 +1,5 @@
 using UnityEngine;
+//using UnityEditor;
 using System;
 using System.Collections;
 using System.Runtime.InteropServices;
@@ -35,19 +36,22 @@ namespace WeihuaGames.ExternalCall
 		{
 			return new AndroidJavaClass("com.KodGames.Android.Device");
 		}
+
 #endif
-		public static string GetPlatformName()
+        public static string GetPlatformName()
 		{
-#if !UNITY_EDITOR
-#if UNITY_IPHONE
-			return "IOS";
-#elif UNITY_ANDROID
-			//return "Android";
-            return "Unity";
-#endif
-#else
-            return "Unity";
-#endif
+            #if !UNITY_EDITOR
+                #if UNITY_IPHONE
+			                    return "IOS";
+                #elif UNITY_ANDROID
+			                    //return "Android";
+                                return "Unity";
+                #else
+                           return "Unity";
+                #endif
+            #else
+                return "Unity";
+            #endif
 		}
 
 		public static string GetUDID()
@@ -58,25 +62,29 @@ namespace WeihuaGames.ExternalCall
 #elif UNITY_ANDROID
 			//return SystemInfo.deviceUniqueIdentifier;
             return "DefaultUDID";
+#else
+            return "DefaultUDID";
 #endif
 #else
             // Show not be empty
-			return "DefaultUDID";
+            return "DefaultUDID";
 #endif
-		}
+        }
 
-		public static string GetGUID()
+        public static string GetGUID()
 		{
 #if !UNITY_EDITOR
 #if UNITY_IPHONE
 			return Marshal.PtrToStringAnsi(UnityCall_Device_GetUDID());
 #elif UNITY_ANDROID
 			return GetJavaClass().CallStatic<string>("getGuid");
+#else
+            return GameUtility.GetUIString("UIGUID");
 #endif
 #else
-			// Show not be empty
-			//return "DefaultUDID";
-			return GameUtility.GetUIString("UIGUID");
+            // Show not be empty
+            //return "DefaultUDID";
+            return GameUtility.GetUIString("UIGUID");
 #endif
 		}
 
