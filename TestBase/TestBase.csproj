@@ -1224,6 +1224,7 @@
     <Compile Include="Assets\TestScript\Script\TestAssetBundle.cs" />
     <Compile Include="Assets\TestScript\Script\TestCoroutine.cs" />
     <Compile Include="Assets\TestScript\Script\TestMesh.cs" />
+    <Compile Include="Assets\TestScript\Script\UI\DragPanel.cs" />
     <Compile Include="Assets\TestScript\Script\Views\BattleLayer.cs" />
     <Compile Include="Assets\TestScript\Script\protocol\AC_AuthActivityCodeRes.cs" />
     <Compile Include="Assets\TestScript\Script\protocol\AC_BindAccountCheckEmailRes.cs" />
