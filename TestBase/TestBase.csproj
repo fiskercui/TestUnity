@@ -114,6 +114,7 @@
     <Compile Include="Assets\Scripts\Plugins\KodGames\Graphics\FXController.cs" />
     <Compile Include="Assets\Scripts\Plugins\KodGames\Utility\MonoBehaviour.cs" />
     <Compile Include="Assets\Shaders\MirrorReflection\MirrorReflection.cs" />
+    <Compile Include="Assets\TestScript\BenchMark\TestAnimation.cs" />
     <Compile Include="Assets\TestScript\Script\AssetBundleLoadOperation.cs" />
     <Compile Include="Assets\TestScript\Script\AssetBundleManager.cs" />
     <Compile Include="Assets\TestScript\Script\Avatar\AvatarAnimation.cs" />
