@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using ClientServerCommon;
 
-public class BattleRole : CharacterController
+public class BattleRole : WeihuaGames.CharacterController
 {
 	// Buffer.
 	public class Buff
