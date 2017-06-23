@@ -453,5 +453,12 @@ public class Avatar : MonoBehaviour
 		PlayAnim(animAction.GetAnimationName(AvatarAssetId));
 	}
 
-	#endregion
+    #endregion
+
+
+    //add by weihua
+    void setRotation()
+    {
+        //gameObject.transform.localRotation = 
+    }
 }

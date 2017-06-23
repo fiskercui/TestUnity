@@ -483,9 +483,9 @@ public class BattleRole : WeihuaGames.CharacterController
 			base.PlayAction(idleAction.id);
 	}
 
-	public override bool PlayAction(int actID)
+	public override bool PlayAction(int actID, bool replayAction)
 	{
-		if (base.PlayAction(actID) == false)
+		if (base.PlayAction(actID, replayAction) == false)
 			return false;
 
 		ChangeState(_ActionState.Busy);
@@ -515,8 +515,19 @@ public class BattleRole : WeihuaGames.CharacterController
 
 		ChangeState(_ActionState.Idle);
 	}
+    public override void StopMove()
+    {
+        base.StopMove();
 
-	public override void Update()
+        if (CanChangeToState(_ActionState.Idle))
+        {
+            PlayIdleAction();
+            ChangeState(_ActionState.Idle);
+        }
+    }
+
+
+    public override void Update()
 	{
 		if (Pause)
 			return;

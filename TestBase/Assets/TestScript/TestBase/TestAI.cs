@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class TestAI : MonoBehaviour
 {
+    public float moveSpeed = 1f;
+    //public  actionType;
     static class ConfigDelayLoader
     {
         public static IFileLoader DelayLoadConfig(System.Type configType, out string fileName, out int fileFormat)
@@ -30,7 +32,10 @@ public class TestAI : MonoBehaviour
             {
                 return new FileLoaderFromTextAsset(TestAI.Inst.avatarAssetCfgFile);
             }
-
+            else if (configType == typeof(ActionConfig))
+            {
+                return new FileLoaderFromTextAsset(TestAI.Inst.actionCfgFile);
+            }
             else
                 return null;
         }
@@ -48,20 +53,65 @@ public class TestAI : MonoBehaviour
     public TextAsset assetdescCfgFile;
     public TextAsset animationCfgFile;
     public TextAsset avatarAssetCfgFile;
+    public TextAsset actionCfgFile;
     private string[] avatarNameStrs = null;
     private int[] avatarIds = null;
 
+
+    ETCJoystick leftJoystick;
+    ETCButton skillButton;
     void Initialize()
     {
         SysModuleManager.Instance.Initialize(this.gameObject);
         SysModuleManager.Instance.AddSysModule<ResourceManager>(true);
-
     }
 
     void Awake()
     {
         Initialize();
+
+
+        GameObject touchControl = GameObject.Find("EasyTouchControlsCanvas");
+        leftJoystick = touchControl.transform.Find("LeftJoyStick").GetComponent<ETCJoystick>();
+        skillButton = touchControl.transform.Find("SkillButton").GetComponent<ETCButton>();
+
+        leftJoystick.cameraLookAt = null;
+        //Camera camera = Camera.main.GetComponent<Camera>();
+        //camera.follow = transform;
+
+        leftJoystick.onMove.AddListener(OnMove);
+        leftJoystick.onMoveEnd.AddListener(OnMoveEnd);
+
+        skillButton.onUp.AddListener(OnSkill);
     }
+
+
+    public void OnMove(Vector2 vec)
+    {
+
+        //transform.Translate(new Vector3(vec.x, 0, vec.y));
+        role.Avatar.CachedTransform.forward = (new Vector3(vec.x, 0, vec.y));
+
+        Vector3 vec3 = new Vector3(vec.x, 0, vec.y);
+        vec3.Normalize();
+
+        Vector3 targetPosition = role.Avatar.CachedTransform.localPosition + new Vector3(vec.x * 10, 0, vec.y * 10);
+        //role.Avatar.gameObject.transform.localRotation =   Quaternion.Euler(new Vector3(vec.x,0, vec.y));
+        role.PlayActionByType(AvatarAction._Type.Run);
+        role.MoveTo(targetPosition, moveSpeed);
+    }
+
+    public void OnMoveEnd()
+    {
+        Debug.Log("onMoveEnd");
+        role.StopMove();
+    }
+
+    public void OnSkill()
+    {
+        Debug.Log("OnSkill");
+    }
+
     // Use this for initialization
     void Start()
     {
@@ -74,7 +124,9 @@ public class TestAI : MonoBehaviour
 
         if (role)
         {
-            role.Avatar.PlayAnim("Run_nv");
+            //role.Avatar.PlayAnim("Run_nv");
+            //actionTy
+            role.PlayActionByType(AvatarAction._Type.CombatIdle);
         }
     }
 

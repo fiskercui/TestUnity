@@ -179,7 +179,7 @@ namespace WeihuaGames
             Avatar.PreLoadAnimation(action.GetAnimationName(avatarAssetId));
         }
 
-        public virtual bool PlayAction(int actionId)
+        public virtual bool PlayAction(int actionId, bool replayActionId = false)
         {
             if (Avatar != null && Avatar.AvatarAnimation != null && Avatar.AvatarAnimation.PlayingAnimation != null && Avatar.AvatarAnimation.PlayingAnimation.animationName.Contains("Die"))
             {
@@ -187,7 +187,12 @@ namespace WeihuaGames
             }
 
             // Stop last action.
+            if(replayActionId == false && curActID == actionId)
+            {
+                return true;
+            }
             StopAction();
+
 
             // Play the animation of this action.
             AvatarAction action = ConfigDatabase.DefaultCfg.ActionConfig.GetActionById(actionId);
@@ -258,7 +263,7 @@ namespace WeihuaGames
             Avatar.SetAnimDurationByMoveTime(GetMoveDuration());
         }
 
-        public void StopMove()
+        public virtual void StopMove()
         {
             if (LogMove)
                 LogMsg(String.Format("StopMove"));
